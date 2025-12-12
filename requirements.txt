@@ -1,0 +1,123 @@
+absl-py==2.1.0
+accelerate==0.21.0
+aiohappyeyeballs==2.4.0
+aiohttp==3.10.5
+aiosignal==1.3.1
+annotated-types==0.7.0
+anyio==4.7.0
+attrs==24.2.0
+bitsandbytes @ https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl#sha256=adacda9b2b65dcb1931b222dffd7a91f0b611b3410d5b51c37ef7b22654106e6
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+certifi @ file:///C:/b/abs_7bbxxprxir/croot/certifi_1720453609121/work/certifi
+chardet==5.2.0
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+colorama==0.4.6
+contourpy==1.3.0
+cycler==0.12.1
+dataclasses-json==0.6.7
+datasets==2.14.4
+dgl==1.1.0
+dill==0.3.7
+docutils==0.21.2
+einops==0.6.1
+filelock @ file:///C:/b/abs_f2gie28u58/croot/filelock_1700591233643/work
+fire==0.5.0
+fonttools==4.54.1
+frozenlist==1.4.1
+fsspec==2024.6.1
+geographiclib==2.0
+Geohash==1.0
+geohash2==1.1
+geoopt @ git+https://github.com/geoopt/geoopt.git@eaadc68fcae361778edf078b503ed79e4497c071
+geopy==2.4.1
+gmpy2 @ file:///C:/ci_311/gmpy2_1677743390134/work
+greenlet==3.1.1
+grpcio==1.66.0
+h11==0.14.0
+httpcore==1.0.7
+httpx==0.28.1
+httpx-sse==0.4.0
+huggingface-hub==0.25.0
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+Jinja2 @ file:///C:/b/abs_92fccttino/croot/jinja2_1716993447201/work
+joblib==1.4.2
+jsonlines==4.0.0
+jsonpatch==1.33
+jsonpointer==3.0.0
+kiwisolver==1.4.7
+langchain==0.3.13
+langchain-community==0.3.13
+langchain-core==0.3.28
+langchain-text-splitters==0.3.4
+langsmith==0.2.4
+Markdown==3.7
+MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
+marshmallow==3.23.2
+matplotlib==3.9.2
+mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
+mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-service==2.4.0
+mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
+multidict==6.0.5
+multiprocess==0.70.15
+mypy-extensions==1.0.0
+networkx @ file:///C:/b/abs_36fmumtynt/croot/networkx_1720002497414/work
+numpy==1.24.0
+orjson==3.10.12
+packaging==24.1
+pandas==2.2.2
+peft==0.4.0
+pillow @ file:///C:/b/abs_32o8er3uqp/croot/pillow_1721059447598/work
+protobuf==5.27.4
+psutil==6.0.0
+pyarrow==17.0.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+pydantic_core==2.27.2
+pygeohash==1.2.0
+pyparsing==3.1.4
+PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+pytorch-metric-learning==2.6.0
+pytz==2024.1
+PyYAML==6.0.2
+regex==2024.7.24
+requests @ file:///C:/b/abs_9frifg92q2/croot/requests_1721410901096/work
+requests-toolbelt==1.0.0
+safetensors==0.4.4
+scikit-learn==1.5.1
+scipy==1.11.2
+sentence-transformers==3.1.1
+shapely==2.0.1
+six==1.16.0
+sniffio==1.3.1
+SQLAlchemy==2.0.36
+sympy @ file:///C:/b/abs_82njkonm7f/croot/sympy_1701397685028/work
+tenacity==9.0.0
+tensorboard==2.17.1
+tensorboard-data-server==0.7.2
+termcolor==2.5.0
+threadpoolctl==3.5.0
+tokenizers==0.21.0
+torch==2.0.1
+torch-cluster @ file:///F:/Anaconda3/envs/POI/Lib/site-packages/torch_cluster-1.6.1%2Bpt20cu117-cp311-cp311-win_amd64.whl#sha256=2ce017f1dfa001d0b37be39fb48d7aea83e6a76af82b4aa3365d823bff7937f9
+torch-scatter @ file:///F:/Anaconda3/envs/POI/Lib/site-packages/torch_scatter-2.1.1%2Bpt20cu117-cp311-cp311-win_amd64.whl#sha256=ac94d0470e7ab41ab589ce7c8846a23ed950dd09169164a222f7b6ff7fa7af2b
+torch-sparse @ file:///F:/Anaconda3/envs/POI/Lib/site-packages/torch_sparse-0.6.17%2Bpt20cu117-cp311-cp311-win_amd64.whl#sha256=18fb2265c9611901b8c1e4d5fb371da2169028b171ca380ee4cadef869a62a8e
+torch-spline-conv @ file:///F:/Anaconda3/envs/POI/Lib/site-packages/torch_spline_conv-1.2.2%2Bpt20cu117-cp311-cp311-win_amd64.whl#sha256=ee37fb602b8c249aba4204586ff7512e4e0dcd4804302c5452266ccbdefece4f
+torch_geometric==2.5.3
+torchaudio==2.0.2
+torchdata==0.8.0
+torchsde==0.2.6
+torchvision==0.15.2
+tqdm==4.66.5
+trampoline==0.1.2
+transformers==4.47.1
+typing-inspect==0.9.0
+typing_extensions==4.12.2
+tzdata==2024.1
+urllib3 @ file:///C:/b/abs_a7hvzm4y95/croot/urllib3_1718912661242/work
+Werkzeug==3.0.4
+win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
+xxhash==3.5.0
+yarl==1.9.4

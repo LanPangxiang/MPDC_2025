@@ -1,0 +1,1301 @@
+10/11 14:26  Loading from ../data/processed/jk
+10/11 14:26  JK loaded. #User: 5358, #POI: 10706
+10/11 14:26  #Train: 232766, #Valid: 29841, #Test: 32359
+10/11 14:26  Geograph #edge: 1315879, Avg. degree: 122.91
+10/11 14:26  Start Training
+10/11 14:26  Dropout: 0.4
+
+10/11 14:26  Batch 0 / 227, Loss: 9.44722 = CE Loss: 9.22763 + Fisher Loss: 1.09798
+10/11 14:28  Batch 45 / 227, Loss: 8.33967 = CE Loss: 8.09510 + Fisher Loss: 1.22287
+10/11 14:29  Batch 90 / 227, Loss: 8.08340 = CE Loss: 7.90548 + Fisher Loss: 0.88962
+10/11 14:31  Batch 135 / 227, Loss: 7.89653 = CE Loss: 7.73133 + Fisher Loss: 0.82602
+10/11 14:32  Batch 180 / 227, Loss: 7.64757 = CE Loss: 7.50306 + Fisher Loss: 0.72254
+10/11 14:34  Batch 225 / 227, Loss: 7.11478 = CE Loss: 6.97196 + Fisher Loss: 0.71413
+10/11 14:35  Epoch 0 / 100, Loss: 8.09322= CE Loss: 7.91014 + Fisher Loss: 0.91540
+10/11 14:35  Valid NDCG@5: 0.21699, Recall@2: 0.20757, Recall@5: 0.26393
+10/11 14:37  New test result:
+ {'hit_ratio': array([0.1674341 , 0.21032788, 0.26057666, 0.30798232, 0.35989987,
+       0.4387342 ]),
+ 'mrr': 0.2151849781284653,
+ 'ndcg': array([0.1674341 , 0.19449706, 0.21714982, 0.23251554, 0.24565739,
+       0.26129892]),
+ 'precision': array([0.1674341 , 0.10516394, 0.05211533, 0.03079823, 0.01799499,
+       0.00877468]),
+ 'recall': array([0.1674341 , 0.21032788, 0.26057666, 0.30798232, 0.35989987,
+       0.4387342 ])}
+10/11 14:37  Best valid Recall@5 at epoch 0
+10/11 14:37  Test NDCG@5: 0.21715, Recall@2: 0.21033, Recall@5: 0.26058
+
+10/11 14:37  Batch 0 / 227, Loss: 7.07128 = CE Loss: 6.92579 + Fisher Loss: 0.72745
+10/11 14:38  Batch 45 / 227, Loss: 6.81576 = CE Loss: 6.67511 + Fisher Loss: 0.70324
+10/11 14:40  Batch 90 / 227, Loss: 6.53837 = CE Loss: 6.39256 + Fisher Loss: 0.72906
+10/11 14:42  Batch 135 / 227, Loss: 6.48234 = CE Loss: 6.32120 + Fisher Loss: 0.80571
+10/11 14:43  Batch 180 / 227, Loss: 6.14307 = CE Loss: 5.99805 + Fisher Loss: 0.72509
+10/11 14:45  Batch 225 / 227, Loss: 5.93040 = CE Loss: 5.78004 + Fisher Loss: 0.75177
+10/11 14:46  Epoch 1 / 100, Loss: 6.52522= CE Loss: 6.37094 + Fisher Loss: 0.77143
+10/11 14:46  Valid NDCG@5: 0.36622, Recall@2: 0.35907, Recall@5: 0.40823
+10/11 14:48  New test result:
+ {'hit_ratio': array([0.29355048, 0.33239593, 0.3826447 , 0.42677462, 0.47498378,
+       0.54216756]),
+ 'mrr': 0.33809967366741944,
+ 'ndcg': array([0.29355048, 0.31805923, 0.34068776, 0.35495045, 0.36710114,
+       0.38044542]),
+ 'precision': array([0.29355048, 0.16619797, 0.07652894, 0.04267746, 0.02374919,
+       0.01084335]),
+ 'recall': array([0.29355048, 0.33239593, 0.3826447 , 0.42677462, 0.47498378,
+       0.54216756])}
+10/11 14:48  Best valid Recall@5 at epoch 1
+10/11 14:48  Test NDCG@5: 0.34069, Recall@2: 0.33240, Recall@5: 0.38264
+
+10/11 14:48  Batch 0 / 227, Loss: 5.81297 = CE Loss: 5.65978 + Fisher Loss: 0.76597
+10/11 14:49  Batch 45 / 227, Loss: 5.79758 = CE Loss: 5.64485 + Fisher Loss: 0.76365
+10/11 14:51  Batch 90 / 227, Loss: 5.69446 = CE Loss: 5.55041 + Fisher Loss: 0.72025
+10/11 14:52  Batch 135 / 227, Loss: 5.62138 = CE Loss: 5.47672 + Fisher Loss: 0.72329
+10/11 14:54  Batch 180 / 227, Loss: 5.63577 = CE Loss: 5.42029 + Fisher Loss: 1.07736
+10/11 14:56  Batch 225 / 227, Loss: 5.76613 = CE Loss: 5.64193 + Fisher Loss: 0.62098
+10/11 14:57  Epoch 2 / 100, Loss: 5.77869= CE Loss: 5.62986 + Fisher Loss: 0.74419
+10/11 14:57  Valid NDCG@5: 0.42466, Recall@2: 0.41611, Recall@5: 0.46661
+10/11 14:58  New test result:
+ {'hit_ratio': array([0.34114157, 0.38007973, 0.43184276, 0.47405668, 0.51793937,
+       0.57986959]),
+ 'mrr': 0.3854879523392699,
+ 'ndcg': array([0.34114157, 0.36570881, 0.38906999, 0.40270782, 0.41377605,
+       0.42606587]),
+ 'precision': array([0.34114157, 0.19003987, 0.08636855, 0.04740567, 0.02589697,
+       0.01159739]),
+ 'recall': array([0.34114157, 0.38007973, 0.43184276, 0.47405668, 0.51793937,
+       0.57986959])}
+10/11 14:58  Best valid Recall@5 at epoch 2
+10/11 14:58  Test NDCG@5: 0.38907, Recall@2: 0.38008, Recall@5: 0.43184
+
+10/11 14:58  Batch 0 / 227, Loss: 5.40255 = CE Loss: 5.27755 + Fisher Loss: 0.62503
+10/11 15:00  Batch 45 / 227, Loss: 5.48229 = CE Loss: 5.34574 + Fisher Loss: 0.68270
+10/11 15:02  Batch 90 / 227, Loss: 5.39211 = CE Loss: 5.25631 + Fisher Loss: 0.67899
+10/11 15:03  Batch 135 / 227, Loss: 5.29342 = CE Loss: 5.16832 + Fisher Loss: 0.62551
+10/11 15:05  Batch 180 / 227, Loss: 5.35966 = CE Loss: 5.22859 + Fisher Loss: 0.65535
+10/11 15:06  Batch 225 / 227, Loss: 5.23539 = CE Loss: 5.10702 + Fisher Loss: 0.64185
+10/11 15:08  Epoch 3 / 100, Loss: 5.45054= CE Loss: 5.31268 + Fisher Loss: 0.68930
+10/11 15:08  Valid NDCG@5: 0.45415, Recall@2: 0.44613, Recall@5: 0.49449
+10/11 15:09  New test result:
+ {'hit_ratio': array([0.36657499, 0.4031954 , 0.45585463, 0.49507092, 0.53703761,
+       0.59723724]),
+ 'mrr': 0.40941427999406943,
+ 'ndcg': array([0.36657499, 0.3896799 , 0.41345817, 0.42610134, 0.43668805,
+       0.44863478]),
+ 'precision': array([0.36657499, 0.2015977 , 0.09117093, 0.04950709, 0.02685188,
+       0.01194474]),
+ 'recall': array([0.36657499, 0.4031954 , 0.45585463, 0.49507092, 0.53703761,
+       0.59723724])}
+10/11 15:09  Best valid Recall@5 at epoch 3
+10/11 15:09  Test NDCG@5: 0.41346, Recall@2: 0.40320, Recall@5: 0.45585
+
+10/11 15:09  Batch 0 / 227, Loss: 5.36052 = CE Loss: 5.20883 + Fisher Loss: 0.75846
+10/11 15:11  Batch 45 / 227, Loss: 5.16781 = CE Loss: 4.96337 + Fisher Loss: 1.02218
+10/11 15:12  Batch 90 / 227, Loss: 5.11235 = CE Loss: 4.99745 + Fisher Loss: 0.57450
+10/11 15:14  Batch 135 / 227, Loss: 5.26840 = CE Loss: 5.08109 + Fisher Loss: 0.93652
+10/11 15:16  Batch 180 / 227, Loss: 5.25716 = CE Loss: 5.07928 + Fisher Loss: 0.88940
+10/11 15:17  Batch 225 / 227, Loss: 5.06937 = CE Loss: 4.95600 + Fisher Loss: 0.56684
+10/11 15:19  Epoch 4 / 100, Loss: 5.25166= CE Loss: 5.12240 + Fisher Loss: 0.64629
+10/11 15:19  Valid NDCG@5: 0.47499, Recall@2: 0.46701, Recall@5: 0.51419
+10/11 15:20  New test result:
+ {'hit_ratio': array([0.38490065, 0.41960506, 0.47062641, 0.50811212, 0.54896628,
+       0.60879508]),
+ 'mrr': 0.42598888854714706,
+ 'ndcg': array([0.38490065, 0.40679669, 0.42976105, 0.44184524, 0.45220914,
+       0.4641124 ]),
+ 'precision': array([0.38490065, 0.20980253, 0.09412528, 0.05081121, 0.02744831,
+       0.0121759 ]),
+ 'recall': array([0.38490065, 0.41960506, 0.47062641, 0.50811212, 0.54896628,
+       0.60879508])}
+10/11 15:20  Best valid Recall@5 at epoch 4
+10/11 15:20  Test NDCG@5: 0.42976, Recall@2: 0.41961, Recall@5: 0.47063
+
+10/11 15:20  Batch 0 / 227, Loss: 4.97676 = CE Loss: 4.86019 + Fisher Loss: 0.58285
+10/11 15:22  Batch 45 / 227, Loss: 5.17140 = CE Loss: 5.02071 + Fisher Loss: 0.75343
+10/11 15:23  Batch 90 / 227, Loss: 5.08200 = CE Loss: 4.96875 + Fisher Loss: 0.56623
+10/11 15:25  Batch 135 / 227, Loss: 5.05315 = CE Loss: 4.94046 + Fisher Loss: 0.56345
+10/11 15:26  Batch 180 / 227, Loss: 5.05135 = CE Loss: 4.94083 + Fisher Loss: 0.55262
+10/11 15:28  Batch 225 / 227, Loss: 5.03147 = CE Loss: 4.92357 + Fisher Loss: 0.53950
+10/11 15:29  Epoch 5 / 100, Loss: 5.10653= CE Loss: 4.98897 + Fisher Loss: 0.58779
+10/11 15:29  Valid NDCG@5: 0.48798, Recall@2: 0.47783, Recall@5: 0.52894
+10/11 15:31  New test result:
+ {'hit_ratio': array([0.39590222, 0.43008128, 0.4827096 , 0.51982447, 0.56006057,
+       0.61852962]),
+ 'mrr': 0.4370018312922915,
+ 'ndcg': array([0.39590222, 0.4174668 , 0.44107567, 0.45311233, 0.46331493,
+       0.47494511]),
+ 'precision': array([0.39590222, 0.21504064, 0.09654192, 0.05198245, 0.02800303,
+       0.01237059]),
+ 'recall': array([0.39590222, 0.43008128, 0.4827096 , 0.51982447, 0.56006057,
+       0.61852962])}
+10/11 15:31  Best valid Recall@5 at epoch 5
+10/11 15:31  Test NDCG@5: 0.44108, Recall@2: 0.43008, Recall@5: 0.48271
+
+10/11 15:31  Batch 0 / 227, Loss: 4.99523 = CE Loss: 4.89699 + Fisher Loss: 0.49117
+10/11 15:32  Batch 45 / 227, Loss: 5.12904 = CE Loss: 5.01766 + Fisher Loss: 0.55688
+10/11 15:34  Batch 90 / 227, Loss: 4.95083 = CE Loss: 4.84828 + Fisher Loss: 0.51276
+10/11 15:36  Batch 135 / 227, Loss: 4.87116 = CE Loss: 4.76820 + Fisher Loss: 0.51482
+10/11 15:37  Batch 180 / 227, Loss: 4.90103 = CE Loss: 4.79774 + Fisher Loss: 0.51643
+10/11 15:39  Batch 225 / 227, Loss: 4.86897 = CE Loss: 4.72746 + Fisher Loss: 0.70757
+10/11 15:40  Epoch 6 / 100, Loss: 4.99012= CE Loss: 4.87889 + Fisher Loss: 0.55617
+10/11 15:40  Valid NDCG@5: 0.49849, Recall@2: 0.49097, Recall@5: 0.53654
+10/11 15:42  New test result:
+ {'hit_ratio': array([0.40489508, 0.43959949, 0.48904478, 0.52640687, 0.56658117,
+       0.62458667]),
+ 'mrr': 0.44532630517892363,
+ 'ndcg': array([0.40489508, 0.42679113, 0.44896016, 0.46106919, 0.4712206 ,
+       0.48270633]),
+ 'precision': array([0.40489508, 0.21979975, 0.09780896, 0.05264069, 0.02832906,
+       0.01249173]),
+ 'recall': array([0.40489508, 0.43959949, 0.48904478, 0.52640687, 0.56658117,
+       0.62458667])}
+10/11 15:42  Best valid Recall@5 at epoch 6
+10/11 15:42  Test NDCG@5: 0.44896, Recall@2: 0.43960, Recall@5: 0.48904
+
+10/11 15:42  Batch 0 / 227, Loss: 4.82114 = CE Loss: 4.72569 + Fisher Loss: 0.47721
+10/11 15:43  Batch 45 / 227, Loss: 4.79417 = CE Loss: 4.69518 + Fisher Loss: 0.49493
+10/11 15:45  Batch 90 / 227, Loss: 4.78677 = CE Loss: 4.69647 + Fisher Loss: 0.45150
+10/11 15:46  Batch 135 / 227, Loss: 4.92692 = CE Loss: 4.83567 + Fisher Loss: 0.45621
+10/11 15:48  Batch 180 / 227, Loss: 4.67956 = CE Loss: 4.58621 + Fisher Loss: 0.46675
+10/11 15:50  Batch 225 / 227, Loss: 4.90204 = CE Loss: 4.81067 + Fisher Loss: 0.45683
+10/11 15:51  Epoch 7 / 100, Loss: 4.89232= CE Loss: 4.78855 + Fisher Loss: 0.51885
+10/11 15:51  Valid NDCG@5: 0.50556, Recall@2: 0.49858, Recall@5: 0.54258
+10/11 15:52  New test result:
+ {'hit_ratio': array([0.41178652, 0.44673816, 0.49225872, 0.52841559, 0.56930066,
+       0.62705893]),
+ 'mrr': 0.4511583383490963,
+ 'ndcg': array([0.41178652, 0.43383855, 0.45426379, 0.46595219, 0.47628944,
+       0.48774733]),
+ 'precision': array([0.41178652, 0.22336908, 0.09845174, 0.05284156, 0.02846503,
+       0.01254118]),
+ 'recall': array([0.41178652, 0.44673816, 0.49225872, 0.52841559, 0.56930066,
+       0.62705893])}
+10/11 15:52  Best valid Recall@5 at epoch 7
+10/11 15:52  Test NDCG@5: 0.45426, Recall@2: 0.44674, Recall@5: 0.49226
+
+10/11 15:52  Batch 0 / 227, Loss: 4.81053 = CE Loss: 4.69437 + Fisher Loss: 0.58081
+10/11 15:54  Batch 45 / 227, Loss: 4.65965 = CE Loss: 4.56705 + Fisher Loss: 0.46300
+10/11 15:56  Batch 90 / 227, Loss: 4.83331 = CE Loss: 4.68783 + Fisher Loss: 0.72744
+10/11 15:57  Batch 135 / 227, Loss: 4.69282 = CE Loss: 4.60387 + Fisher Loss: 0.44478
+10/11 15:59  Batch 180 / 227, Loss: 4.86777 = CE Loss: 4.77965 + Fisher Loss: 0.44060
+10/11 16:00  Batch 225 / 227, Loss: 4.88584 = CE Loss: 4.79902 + Fisher Loss: 0.43409
+10/11 16:02  Epoch 8 / 100, Loss: 4.81284= CE Loss: 4.71286 + Fisher Loss: 0.49990
+10/11 16:02  Valid NDCG@5: 0.51425, Recall@2: 0.50618, Recall@5: 0.54991
+10/11 16:03  New test result:
+ {'hit_ratio': array([0.42062486, 0.45545289, 0.50251862, 0.53883   , 0.57724281,
+       0.63302327]),
+ 'mrr': 0.46010263522304734,
+ 'ndcg': array([0.42062486, 0.4425989 , 0.4637196 , 0.47543631, 0.4851276 ,
+       0.49619037]),
+ 'precision': array([0.42062486, 0.22772644, 0.10050372, 0.053883  , 0.02886214,
+       0.01266047]),
+ 'recall': array([0.42062486, 0.45545289, 0.50251862, 0.53883   , 0.57724281,
+       0.63302327])}
+10/11 16:03  Best valid Recall@5 at epoch 8
+10/11 16:03  Test NDCG@5: 0.46372, Recall@2: 0.45545, Recall@5: 0.50252
+
+10/11 16:03  Batch 0 / 227, Loss: 4.81782 = CE Loss: 4.70480 + Fisher Loss: 0.56513
+10/11 16:05  Batch 45 / 227, Loss: 4.76418 = CE Loss: 4.67809 + Fisher Loss: 0.43044
+10/11 16:06  Batch 90 / 227, Loss: 4.56642 = CE Loss: 4.47994 + Fisher Loss: 0.43239
+10/11 16:08  Batch 135 / 227, Loss: 4.82366 = CE Loss: 4.73794 + Fisher Loss: 0.42860
+10/11 16:10  Batch 180 / 227, Loss: 4.68693 = CE Loss: 4.60135 + Fisher Loss: 0.42787
+10/11 16:11  Batch 225 / 227, Loss: 4.70536 = CE Loss: 4.62134 + Fisher Loss: 0.42010
+10/11 16:13  Epoch 9 / 100, Loss: 4.74176= CE Loss: 4.64555 + Fisher Loss: 0.48106
+10/11 16:13  Valid NDCG@5: 0.52003, Recall@2: 0.51201, Recall@5: 0.55672
+10/11 16:14  New test result:
+ {'hit_ratio': array([0.42454958, 0.45780154, 0.50353843, 0.53935536, 0.57875707,
+       0.63537192]),
+ 'mrr': 0.46313639608132123,
+ 'ndcg': array([0.42454958, 0.44552923, 0.46616505, 0.4777812 , 0.48775141,
+       0.49900385]),
+ 'precision': array([0.42454958, 0.22890077, 0.10070769, 0.05393554, 0.02893785,
+       0.01270744]),
+ 'recall': array([0.42454958, 0.45780154, 0.50353843, 0.53935536, 0.57875707,
+       0.63537192])}
+10/11 16:14  Best valid Recall@5 at epoch 9
+10/11 16:14  Test NDCG@5: 0.46617, Recall@2: 0.45780, Recall@5: 0.50354
+
+10/11 16:14  Batch 0 / 227, Loss: 4.67306 = CE Loss: 4.59126 + Fisher Loss: 0.40899
+10/11 16:16  Batch 45 / 227, Loss: 4.76137 = CE Loss: 4.64003 + Fisher Loss: 0.60669
+10/11 16:17  Batch 90 / 227, Loss: 4.69788 = CE Loss: 4.61761 + Fisher Loss: 0.40137
+10/11 16:19  Batch 135 / 227, Loss: 4.67684 = CE Loss: 4.52401 + Fisher Loss: 0.76415
+10/11 16:20  Batch 180 / 227, Loss: 4.56436 = CE Loss: 4.48602 + Fisher Loss: 0.39172
+10/11 16:22  Batch 225 / 227, Loss: 4.68817 = CE Loss: 4.52429 + Fisher Loss: 0.81938
+10/11 16:23  Epoch 10 / 100, Loss: 4.69080= CE Loss: 4.59560 + Fisher Loss: 0.47596
+10/11 16:23  Valid NDCG@5: 0.52471, Recall@2: 0.51657, Recall@5: 0.55967
+10/11 16:25  New test result:
+ {'hit_ratio': array([0.42977224, 0.46256065, 0.50721592, 0.54414537, 0.58206372,
+       0.63762786]),
+ 'mrr': 0.46766230906785733,
+ 'ndcg': array([0.42977224, 0.45045942, 0.47052973, 0.48243884, 0.49201499,
+       0.50305166]),
+ 'precision': array([0.42977224, 0.23128032, 0.10144318, 0.05441454, 0.02910319,
+       0.01275256]),
+ 'recall': array([0.42977224, 0.46256065, 0.50721592, 0.54414537, 0.58206372,
+       0.63762786])}
+10/11 16:25  Best valid Recall@5 at epoch 10
+10/11 16:25  Test NDCG@5: 0.47053, Recall@2: 0.46256, Recall@5: 0.50722
+
+10/11 16:25  Batch 0 / 227, Loss: 4.52203 = CE Loss: 4.39752 + Fisher Loss: 0.62254
+10/11 16:26  Batch 45 / 227, Loss: 4.58289 = CE Loss: 4.50378 + Fisher Loss: 0.39557
+10/11 16:28  Batch 90 / 227, Loss: 4.68307 = CE Loss: 4.60452 + Fisher Loss: 0.39275
+10/11 16:30  Batch 135 / 227, Loss: 4.63114 = CE Loss: 4.55340 + Fisher Loss: 0.38874
+10/11 16:31  Batch 180 / 227, Loss: 4.51329 = CE Loss: 4.43614 + Fisher Loss: 0.38574
+10/11 16:33  Batch 225 / 227, Loss: 4.48540 = CE Loss: 4.40974 + Fisher Loss: 0.37833
+10/11 16:34  Epoch 11 / 100, Loss: 4.63936= CE Loss: 4.54938 + Fisher Loss: 0.44985
+10/11 16:34  Valid NDCG@5: 0.52950, Recall@2: 0.52187, Recall@5: 0.56372
+10/11 16:36  New test result:
+ {'hit_ratio': array([0.43412961, 0.46741247, 0.51012083, 0.54497976, 0.58295992,
+       0.63784419]),
+ 'mrr': 0.4714765685352896,
+ 'ndcg': array([0.43412961, 0.45512875, 0.47434942, 0.48559425, 0.49518969,
+       0.50608402]),
+ 'precision': array([0.43412961, 0.23370623, 0.10202417, 0.05449798, 0.029148  ,
+       0.01275688]),
+ 'recall': array([0.43412961, 0.46741247, 0.51012083, 0.54497976, 0.58295992,
+       0.63784419])}
+10/11 16:36  Best valid Recall@5 at epoch 11
+10/11 16:36  Test NDCG@5: 0.47435, Recall@2: 0.46741, Recall@5: 0.51012
+
+10/11 16:36  Batch 0 / 227, Loss: 4.47262 = CE Loss: 4.39689 + Fisher Loss: 0.37864
+10/11 16:37  Batch 45 / 227, Loss: 4.57331 = CE Loss: 4.49607 + Fisher Loss: 0.38619
+10/11 16:39  Batch 90 / 227, Loss: 4.76403 = CE Loss: 4.64495 + Fisher Loss: 0.59542
+10/11 16:41  Batch 135 / 227, Loss: 4.45828 = CE Loss: 4.38217 + Fisher Loss: 0.38056
+10/11 16:42  Batch 180 / 227, Loss: 4.72986 = CE Loss: 4.61354 + Fisher Loss: 0.58158
+10/11 16:44  Batch 225 / 227, Loss: 4.57994 = CE Loss: 4.45848 + Fisher Loss: 0.60731
+10/11 16:45  Epoch 12 / 100, Loss: 4.60592= CE Loss: 4.51515 + Fisher Loss: 0.45387
+10/11 16:45  Valid NDCG@5: 0.53153, Recall@2: 0.52334, Recall@5: 0.56526
+10/11 16:47  New test result:
+ {'hit_ratio': array([0.43382058, 0.46710343, 0.51055348, 0.54621589, 0.58385611,
+       0.63991471]),
+ 'mrr': 0.47156805806619406,
+ 'ndcg': array([0.43382058, 0.45481972, 0.47442524, 0.48596772, 0.49545581,
+       0.50657476]),
+ 'precision': array([0.43382058, 0.23355172, 0.1021107 , 0.05462159, 0.02919281,
+       0.01279829]),
+ 'recall': array([0.43382058, 0.46710343, 0.51055348, 0.54621589, 0.58385611,
+       0.63991471])}
+10/11 16:47  Best valid Recall@5 at epoch 12
+10/11 16:47  Test NDCG@5: 0.47443, Recall@2: 0.46710, Recall@5: 0.51055
+
+10/11 16:47  Batch 0 / 227, Loss: 4.53744 = CE Loss: 4.46388 + Fisher Loss: 0.36782
+10/11 16:48  Batch 45 / 227, Loss: 4.40659 = CE Loss: 4.31330 + Fisher Loss: 0.46645
+10/11 16:50  Batch 90 / 227, Loss: 4.58290 = CE Loss: 4.50914 + Fisher Loss: 0.36881
+10/11 16:52  Batch 135 / 227, Loss: 4.53962 = CE Loss: 4.44177 + Fisher Loss: 0.48924
+10/11 16:53  Batch 180 / 227, Loss: 4.89739 = CE Loss: 4.80277 + Fisher Loss: 0.47310
+10/11 16:55  Batch 225 / 227, Loss: 4.53487 = CE Loss: 4.46150 + Fisher Loss: 0.36687
+10/11 16:56  Epoch 13 / 100, Loss: 4.56403= CE Loss: 4.47833 + Fisher Loss: 0.42850
+10/11 16:56  Valid NDCG@5: 0.53941, Recall@2: 0.53155, Recall@5: 0.57300
+10/11 16:58  New test result:
+ {'hit_ratio': array([0.44293705, 0.47677617, 0.51942273, 0.55341636, 0.5911802 ,
+       0.64417936]),
+ 'mrr': 0.48037285771925925,
+ 'ndcg': array([0.44293705, 0.46428716, 0.4834768 , 0.49447176, 0.50401068,
+       0.5145183 ]),
+ 'precision': array([0.44293705, 0.23838808, 0.10388455, 0.05534164, 0.02955901,
+       0.01288359]),
+ 'recall': array([0.44293705, 0.47677617, 0.51942273, 0.55341636, 0.5911802 ,
+       0.64417936])}
+10/11 16:58  Best valid Recall@5 at epoch 13
+10/11 16:58  Test NDCG@5: 0.48348, Recall@2: 0.47678, Recall@5: 0.51942
+
+10/11 16:58  Batch 0 / 227, Loss: 4.40970 = CE Loss: 4.33603 + Fisher Loss: 0.36834
+10/11 16:59  Batch 45 / 227, Loss: 4.46369 = CE Loss: 4.37411 + Fisher Loss: 0.44789
+10/11 17:01  Batch 90 / 227, Loss: 4.45604 = CE Loss: 4.38019 + Fisher Loss: 0.37927
+10/11 17:03  Batch 135 / 227, Loss: 4.64057 = CE Loss: 4.49177 + Fisher Loss: 0.74401
+10/11 17:04  Batch 180 / 227, Loss: 4.59020 = CE Loss: 4.51728 + Fisher Loss: 0.36457
+10/11 17:06  Batch 225 / 227, Loss: 4.48263 = CE Loss: 4.40949 + Fisher Loss: 0.36567
+10/11 17:07  Epoch 14 / 100, Loss: 4.53865= CE Loss: 4.45182 + Fisher Loss: 0.43417
+10/11 17:07  Valid NDCG@5: 0.53904, Recall@2: 0.53266, Recall@5: 0.57190
+10/11 17:07  Best valid Recall@5 at epoch 13
+10/11 17:07  Test NDCG@5: 0.48348, Recall@2: 0.47678, Recall@5: 0.51942
+
+10/11 17:07  Batch 0 / 227, Loss: 4.40587 = CE Loss: 4.32193 + Fisher Loss: 0.41971
+10/11 17:09  Batch 45 / 227, Loss: 4.39070 = CE Loss: 4.31777 + Fisher Loss: 0.36465
+10/11 17:11  Batch 90 / 227, Loss: 4.53436 = CE Loss: 4.46305 + Fisher Loss: 0.35658
+10/11 17:12  Batch 135 / 227, Loss: 4.58299 = CE Loss: 4.51183 + Fisher Loss: 0.35578
+10/11 17:14  Batch 180 / 227, Loss: 4.49092 = CE Loss: 4.41842 + Fisher Loss: 0.36253
+10/11 17:16  Batch 225 / 227, Loss: 4.38001 = CE Loss: 4.30740 + Fisher Loss: 0.36308
+10/11 17:17  Epoch 15 / 100, Loss: 4.51615= CE Loss: 4.42912 + Fisher Loss: 0.43518
+10/11 17:17  Valid NDCG@5: 0.54036, Recall@2: 0.53376, Recall@5: 0.57290
+10/11 17:17  Best valid Recall@5 at epoch 13
+10/11 17:17  Test NDCG@5: 0.48348, Recall@2: 0.47678, Recall@5: 0.51942
+
+10/11 17:17  Batch 0 / 227, Loss: 4.35361 = CE Loss: 4.28049 + Fisher Loss: 0.36560
+10/11 17:19  Batch 45 / 227, Loss: 4.46274 = CE Loss: 4.39200 + Fisher Loss: 0.35371
+10/11 17:20  Batch 90 / 227, Loss: 4.43488 = CE Loss: 4.36420 + Fisher Loss: 0.35340
+10/11 17:22  Batch 135 / 227, Loss: 4.50451 = CE Loss: 4.43451 + Fisher Loss: 0.35004
+10/11 17:24  Batch 180 / 227, Loss: 4.29498 = CE Loss: 4.22510 + Fisher Loss: 0.34939
+10/11 17:25  Batch 225 / 227, Loss: 4.39926 = CE Loss: 4.32921 + Fisher Loss: 0.35024
+10/11 17:27  Epoch 16 / 100, Loss: 4.49007= CE Loss: 4.40256 + Fisher Loss: 0.43757
+10/11 17:27  Valid NDCG@5: 0.54438, Recall@2: 0.53668, Recall@5: 0.57699
+10/11 17:28  New test result:
+ {'hit_ratio': array([0.44800519, 0.48218425, 0.52461448, 0.55598133, 0.59414691,
+       0.64655892]),
+ 'mrr': 0.4851530609939731,
+ 'ndcg': array([0.44800519, 0.46956977, 0.48866344, 0.49876414, 0.50837538,
+       0.51878348]),
+ 'precision': array([0.44800519, 0.24109212, 0.1049229 , 0.05559813, 0.02970735,
+       0.01293118]),
+ 'recall': array([0.44800519, 0.48218425, 0.52461448, 0.55598133, 0.59414691,
+       0.64655892])}
+10/11 17:28  Best valid Recall@5 at epoch 16
+10/11 17:28  Test NDCG@5: 0.48866, Recall@2: 0.48218, Recall@5: 0.52461
+
+10/11 17:28  Batch 0 / 227, Loss: 4.42625 = CE Loss: 4.35556 + Fisher Loss: 0.35348
+10/11 17:30  Batch 45 / 227, Loss: 4.25322 = CE Loss: 4.18432 + Fisher Loss: 0.34451
+10/11 17:31  Batch 90 / 227, Loss: 4.44355 = CE Loss: 4.37307 + Fisher Loss: 0.35242
+10/11 17:33  Batch 135 / 227, Loss: 4.30922 = CE Loss: 4.23474 + Fisher Loss: 0.37241
+10/11 17:35  Batch 180 / 227, Loss: 4.53219 = CE Loss: 4.40789 + Fisher Loss: 0.62150
+10/11 17:37  Batch 225 / 227, Loss: 4.44254 = CE Loss: 4.26012 + Fisher Loss: 0.91207
+10/11 17:38  Epoch 17 / 100, Loss: 4.47107= CE Loss: 4.38787 + Fisher Loss: 0.41601
+10/11 17:38  Valid NDCG@5: 0.54628, Recall@2: 0.53896, Recall@5: 0.57887
+10/11 17:39  New test result:
+ {'hit_ratio': array([0.44964307, 0.48474922, 0.52594332, 0.55972063, 0.59612473,
+       0.6482895 ]),
+ 'mrr': 0.4871219753976044,
+ 'ndcg': array([0.44964307, 0.47179258, 0.49036102, 0.50123929, 0.51039726,
+       0.52073206]),
+ 'precision': array([0.44964307, 0.24237461, 0.10518866, 0.05597206, 0.02980624,
+       0.01296579]),
+ 'recall': array([0.44964307, 0.48474922, 0.52594332, 0.55972063, 0.59612473,
+       0.6482895 ])}
+10/11 17:39  Best valid Recall@5 at epoch 17
+10/11 17:39  Test NDCG@5: 0.49036, Recall@2: 0.48475, Recall@5: 0.52594
+
+10/11 17:39  Batch 0 / 227, Loss: 4.42905 = CE Loss: 4.27305 + Fisher Loss: 0.77999
+10/11 17:41  Batch 45 / 227, Loss: 4.57357 = CE Loss: 4.38909 + Fisher Loss: 0.92237
+10/11 17:43  Batch 90 / 227, Loss: 4.43001 = CE Loss: 4.35739 + Fisher Loss: 0.36310
+10/11 17:44  Batch 135 / 227, Loss: 4.40992 = CE Loss: 4.33949 + Fisher Loss: 0.35216
+10/11 17:46  Batch 180 / 227, Loss: 4.45792 = CE Loss: 4.38930 + Fisher Loss: 0.34307
+10/11 17:47  Batch 225 / 227, Loss: 4.61458 = CE Loss: 4.51347 + Fisher Loss: 0.50556
+10/11 17:49  Epoch 18 / 100, Loss: 4.45387= CE Loss: 4.36689 + Fisher Loss: 0.43490
+10/11 17:49  Valid NDCG@5: 0.54754, Recall@2: 0.54033, Recall@5: 0.57974
+10/11 17:50  New test result:
+ {'hit_ratio': array([0.45044655, 0.48376031, 0.52563429, 0.55913347, 0.59411601,
+       0.64804228]),
+ 'mrr': 0.4871777919297318,
+ 'ndcg': array([0.45044655, 0.4714652 , 0.49030184, 0.50114538, 0.50996768,
+       0.52067242]),
+ 'precision': array([0.45044655, 0.24188016, 0.10512686, 0.05591335, 0.0297058 ,
+       0.01296085]),
+ 'recall': array([0.45044655, 0.48376031, 0.52563429, 0.55913347, 0.59411601,
+       0.64804228])}
+10/11 17:50  Best valid Recall@5 at epoch 18
+10/11 17:50  Test NDCG@5: 0.49030, Recall@2: 0.48376, Recall@5: 0.52563
+
+10/11 17:50  Batch 0 / 227, Loss: 4.42320 = CE Loss: 4.35327 + Fisher Loss: 0.34964
+10/11 17:52  Batch 45 / 227, Loss: 4.40778 = CE Loss: 4.33851 + Fisher Loss: 0.34637
+10/11 17:53  Batch 90 / 227, Loss: 4.53889 = CE Loss: 4.47012 + Fisher Loss: 0.34384
+10/11 17:55  Batch 135 / 227, Loss: 4.47993 = CE Loss: 4.30490 + Fisher Loss: 0.87514
+10/11 17:56  Batch 180 / 227, Loss: 4.35032 = CE Loss: 4.27991 + Fisher Loss: 0.35207
+10/11 17:58  Batch 225 / 227, Loss: 4.42847 = CE Loss: 4.27633 + Fisher Loss: 0.76068
+10/11 17:59  Epoch 19 / 100, Loss: 4.43426= CE Loss: 4.34958 + Fisher Loss: 0.42339
+10/11 17:59  Valid NDCG@5: 0.54914, Recall@2: 0.54298, Recall@5: 0.58215
+10/11 18:00  New test result:
+ {'hit_ratio': array([0.45254798, 0.48530548, 0.52649958, 0.56027689, 0.59634105,
+       0.64927841]),
+ 'mrr': 0.4889743574307697,
+ 'ndcg': array([0.45254798, 0.47321566, 0.49177326, 0.50272468, 0.51184609,
+       0.52237237]),
+ 'precision': array([0.45254798, 0.24265274, 0.10529992, 0.05602769, 0.02981705,
+       0.01298557]),
+ 'recall': array([0.45254798, 0.48530548, 0.52649958, 0.56027689, 0.59634105,
+       0.64927841])}
+10/11 18:00  Best valid Recall@5 at epoch 19
+10/11 18:00  Test NDCG@5: 0.49177, Recall@2: 0.48531, Recall@5: 0.52650
+
+10/11 18:00  Batch 0 / 227, Loss: 4.44070 = CE Loss: 4.36064 + Fisher Loss: 0.40031
+10/11 18:02  Batch 45 / 227, Loss: 4.47834 = CE Loss: 4.40886 + Fisher Loss: 0.34741
+10/11 18:04  Batch 90 / 227, Loss: 4.41555 = CE Loss: 4.34532 + Fisher Loss: 0.35114
+10/11 18:05  Batch 135 / 227, Loss: 4.41549 = CE Loss: 4.34566 + Fisher Loss: 0.34917
+10/11 18:07  Batch 180 / 227, Loss: 4.42253 = CE Loss: 4.35351 + Fisher Loss: 0.34508
+10/11 18:08  Batch 225 / 227, Loss: 4.46028 = CE Loss: 4.35964 + Fisher Loss: 0.50320
+10/11 18:10  Epoch 20 / 100, Loss: 4.41885= CE Loss: 4.33710 + Fisher Loss: 0.40876
+10/11 18:10  Valid NDCG@5: 0.55220, Recall@2: 0.54522, Recall@5: 0.58527
+10/11 18:11  New test result:
+ {'hit_ratio': array([0.4574307 , 0.48873575, 0.52918817, 0.56308909, 0.5995859 ,
+       0.65113261]),
+ 'mrr': 0.4928854691759831,
+ 'ndcg': array([0.4574307 , 0.47718198, 0.49543358, 0.50636662, 0.51560061,
+       0.52580958]),
+ 'precision': array([0.4574307 , 0.24436787, 0.10583763, 0.05630891, 0.02997929,
+       0.01302265]),
+ 'recall': array([0.4574307 , 0.48873575, 0.52918817, 0.56308909, 0.5995859 ,
+       0.65113261])}
+10/11 18:11  Best valid Recall@5 at epoch 20
+10/11 18:11  Test NDCG@5: 0.49543, Recall@2: 0.48874, Recall@5: 0.52919
+
+10/11 18:11  Batch 0 / 227, Loss: 4.20949 = CE Loss: 4.13953 + Fisher Loss: 0.34980
+10/11 18:12  Batch 45 / 227, Loss: 4.46995 = CE Loss: 4.37287 + Fisher Loss: 0.48543
+10/11 18:14  Batch 90 / 227, Loss: 4.61953 = CE Loss: 4.48351 + Fisher Loss: 0.68009
+10/11 18:16  Batch 135 / 227, Loss: 4.45886 = CE Loss: 4.38946 + Fisher Loss: 0.34696
+10/11 18:17  Batch 180 / 227, Loss: 4.41429 = CE Loss: 4.34509 + Fisher Loss: 0.34599
+10/11 18:19  Batch 225 / 227, Loss: 4.47367 = CE Loss: 4.28904 + Fisher Loss: 0.92314
+10/11 18:20  Epoch 21 / 100, Loss: 4.40964= CE Loss: 4.32601 + Fisher Loss: 0.41816
+10/11 18:20  Valid NDCG@5: 0.55043, Recall@2: 0.54338, Recall@5: 0.58322
+10/11 18:20  Best valid Recall@5 at epoch 20
+10/11 18:20  Test NDCG@5: 0.49543, Recall@2: 0.48874, Recall@5: 0.52919
+
+10/11 18:20  Batch 0 / 227, Loss: 4.35824 = CE Loss: 4.29091 + Fisher Loss: 0.33667
+10/11 18:22  Batch 45 / 227, Loss: 4.27347 = CE Loss: 4.20471 + Fisher Loss: 0.34382
+10/11 18:23  Batch 90 / 227, Loss: 4.44599 = CE Loss: 4.37612 + Fisher Loss: 0.34935
+10/11 18:25  Batch 135 / 227, Loss: 4.46329 = CE Loss: 4.35372 + Fisher Loss: 0.54784
+10/11 18:26  Batch 180 / 227, Loss: 4.39844 = CE Loss: 4.33091 + Fisher Loss: 0.33760
+10/11 18:28  Batch 225 / 227, Loss: 4.30399 = CE Loss: 4.23541 + Fisher Loss: 0.34291
+10/11 18:29  Epoch 22 / 100, Loss: 4.39250= CE Loss: 4.31241 + Fisher Loss: 0.40045
+10/11 18:29  Valid NDCG@5: 0.55234, Recall@2: 0.54687, Recall@5: 0.58410
+10/11 18:29  Best valid Recall@5 at epoch 20
+10/11 18:29  Test NDCG@5: 0.49543, Recall@2: 0.48874, Recall@5: 0.52919
+
+10/11 18:29  Batch 0 / 227, Loss: 4.18913 = CE Loss: 4.12004 + Fisher Loss: 0.34544
+10/11 18:31  Batch 45 / 227, Loss: 4.30244 = CE Loss: 4.23223 + Fisher Loss: 0.35106
+10/11 18:32  Batch 90 / 227, Loss: 4.24654 = CE Loss: 4.17783 + Fisher Loss: 0.34358
+10/11 18:34  Batch 135 / 227, Loss: 4.34051 = CE Loss: 4.27163 + Fisher Loss: 0.34444
+10/11 18:35  Batch 180 / 227, Loss: 4.45644 = CE Loss: 4.38819 + Fisher Loss: 0.34124
+10/11 18:37  Batch 225 / 227, Loss: 4.35931 = CE Loss: 4.29175 + Fisher Loss: 0.33777
+10/11 18:38  Epoch 23 / 100, Loss: 4.38146= CE Loss: 4.30074 + Fisher Loss: 0.40361
+10/11 18:38  Valid NDCG@5: 0.55142, Recall@2: 0.54506, Recall@5: 0.58336
+10/11 18:38  Best valid Recall@5 at epoch 20
+10/11 18:38  Test NDCG@5: 0.49543, Recall@2: 0.48874, Recall@5: 0.52919
+
+10/11 18:38  Batch 0 / 227, Loss: 4.10558 = CE Loss: 4.03785 + Fisher Loss: 0.33866
+10/11 18:40  Batch 45 / 227, Loss: 4.05693 = CE Loss: 3.98967 + Fisher Loss: 0.33629
+10/11 18:41  Batch 90 / 227, Loss: 4.39654 = CE Loss: 4.32820 + Fisher Loss: 0.34174
+10/11 18:43  Batch 135 / 227, Loss: 4.21500 = CE Loss: 4.14511 + Fisher Loss: 0.34948
+10/11 18:45  Batch 180 / 227, Loss: 4.32321 = CE Loss: 4.24514 + Fisher Loss: 0.39031
+10/11 18:46  Batch 225 / 227, Loss: 4.35177 = CE Loss: 4.28428 + Fisher Loss: 0.33749
+10/11 18:47  Epoch 24 / 100, Loss: 4.37174= CE Loss: 4.28979 + Fisher Loss: 0.40975
+10/11 18:47  Valid NDCG@5: 0.55342, Recall@2: 0.54760, Recall@5: 0.58681
+10/11 18:49  New test result:
+ {'hit_ratio': array([0.4565036 , 0.48941562, 0.53054792, 0.56355264, 0.59890602,
+       0.65097809]),
+ 'mrr': 0.49273394669231924,
+ 'ndcg': array([0.4565036 , 0.47726877, 0.49576535, 0.50645588, 0.51538436,
+       0.5257123 ]),
+ 'precision': array([0.4565036 , 0.24470781, 0.10610958, 0.05635526, 0.0299453 ,
+       0.01301956]),
+ 'recall': array([0.4565036 , 0.48941562, 0.53054792, 0.56355264, 0.59890602,
+       0.65097809])}
+10/11 18:49  Best valid Recall@5 at epoch 24
+10/11 18:49  Test NDCG@5: 0.49577, Recall@2: 0.48942, Recall@5: 0.53055
+
+10/11 18:49  Batch 0 / 227, Loss: 4.27511 = CE Loss: 4.12802 + Fisher Loss: 0.73547
+10/11 18:50  Batch 45 / 227, Loss: 4.25591 = CE Loss: 4.18475 + Fisher Loss: 0.35577
+10/11 18:52  Batch 90 / 227, Loss: 4.44563 = CE Loss: 4.32184 + Fisher Loss: 0.61896
+10/11 18:53  Batch 135 / 227, Loss: 4.43948 = CE Loss: 4.37210 + Fisher Loss: 0.33691
+10/11 18:55  Batch 180 / 227, Loss: 4.35332 = CE Loss: 4.20329 + Fisher Loss: 0.75013
+10/11 18:57  Batch 225 / 227, Loss: 4.27786 = CE Loss: 4.21006 + Fisher Loss: 0.33898
+10/11 18:58  Epoch 25 / 100, Loss: 4.36020= CE Loss: 4.27891 + Fisher Loss: 0.40646
+10/11 18:58  Valid NDCG@5: 0.55451, Recall@2: 0.54898, Recall@5: 0.58715
+10/11 18:59  New test result:
+ {'hit_ratio': array([0.45675083, 0.48975555, 0.53067153, 0.56392348, 0.59850428,
+       0.65141074]),
+ 'mrr': 0.49303328166248506,
+ 'ndcg': array([0.45675083, 0.47757449, 0.49601297, 0.50679678, 0.51551854,
+       0.52602367]),
+ 'precision': array([0.45675083, 0.24487778, 0.10613431, 0.05639235, 0.02992521,
+       0.01302821]),
+ 'recall': array([0.45675083, 0.48975555, 0.53067153, 0.56392348, 0.59850428,
+       0.65141074])}
+10/11 18:59  Best valid Recall@5 at epoch 25
+10/11 18:59  Test NDCG@5: 0.49601, Recall@2: 0.48976, Recall@5: 0.53067
+
+10/11 18:59  Batch 0 / 227, Loss: 4.25336 = CE Loss: 4.17793 + Fisher Loss: 0.37714
+10/11 19:01  Batch 45 / 227, Loss: 4.25284 = CE Loss: 4.18659 + Fisher Loss: 0.33125
+10/11 19:02  Batch 90 / 227, Loss: 4.04153 = CE Loss: 3.97610 + Fisher Loss: 0.32714
+10/11 19:04  Batch 135 / 227, Loss: 4.35069 = CE Loss: 4.22953 + Fisher Loss: 0.60578
+10/11 19:05  Batch 180 / 227, Loss: 4.27692 = CE Loss: 4.21159 + Fisher Loss: 0.32666
+10/11 19:07  Batch 225 / 227, Loss: 4.59464 = CE Loss: 4.48623 + Fisher Loss: 0.54201
+10/11 19:08  Epoch 26 / 100, Loss: 4.35554= CE Loss: 4.27211 + Fisher Loss: 0.41717
+10/11 19:08  Valid NDCG@5: 0.55627, Recall@2: 0.54951, Recall@5: 0.58818
+10/11 19:10  New test result:
+ {'hit_ratio': array([0.46052103, 0.49210421, 0.5322785 , 0.56534504, 0.59995674,
+       0.65215242]),
+ 'mrr': 0.4958097630003713,
+ 'ndcg': array([0.46052103, 0.4804478 , 0.49851782, 0.50919977, 0.51795965,
+       0.52836828]),
+ 'precision': array([0.46052103, 0.2460521 , 0.1064557 , 0.0565345 , 0.02999784,
+       0.01304305]),
+ 'recall': array([0.46052103, 0.49210421, 0.5322785 , 0.56534504, 0.59995674,
+       0.65215242])}
+10/11 19:10  Best valid Recall@5 at epoch 26
+10/11 19:10  Test NDCG@5: 0.49852, Recall@2: 0.49210, Recall@5: 0.53228
+
+10/11 19:10  Batch 0 / 227, Loss: 4.16806 = CE Loss: 4.10127 + Fisher Loss: 0.33393
+10/11 19:11  Batch 45 / 227, Loss: 4.31242 = CE Loss: 4.15814 + Fisher Loss: 0.77137
+10/11 19:13  Batch 90 / 227, Loss: 4.25349 = CE Loss: 4.13887 + Fisher Loss: 0.57310
+10/11 19:14  Batch 135 / 227, Loss: 4.32788 = CE Loss: 4.26207 + Fisher Loss: 0.32903
+10/11 19:16  Batch 180 / 227, Loss: 4.60479 = CE Loss: 4.53894 + Fisher Loss: 0.32927
+10/11 19:17  Batch 225 / 227, Loss: 4.34871 = CE Loss: 4.26920 + Fisher Loss: 0.39754
+10/11 19:19  Epoch 27 / 100, Loss: 4.34462= CE Loss: 4.26303 + Fisher Loss: 0.40797
+10/11 19:19  Valid NDCG@5: 0.55648, Recall@2: 0.55002, Recall@5: 0.58782
+10/11 19:19  Best valid Recall@5 at epoch 26
+10/11 19:19  Test NDCG@5: 0.49852, Recall@2: 0.49210, Recall@5: 0.53228
+
+10/11 19:19  Batch 0 / 227, Loss: 4.12827 = CE Loss: 4.06256 + Fisher Loss: 0.32851
+10/11 19:20  Batch 45 / 227, Loss: 4.15990 = CE Loss: 3.99866 + Fisher Loss: 0.80625
+10/11 19:22  Batch 90 / 227, Loss: 4.22634 = CE Loss: 4.16049 + Fisher Loss: 0.32925
+10/11 19:24  Batch 135 / 227, Loss: 4.35650 = CE Loss: 4.29323 + Fisher Loss: 0.31636
+10/11 19:25  Batch 180 / 227, Loss: 4.34100 = CE Loss: 4.27691 + Fisher Loss: 0.32050
+10/11 19:27  Batch 225 / 227, Loss: 4.12459 = CE Loss: 4.06078 + Fisher Loss: 0.31904
+10/11 19:28  Epoch 28 / 100, Loss: 4.33361= CE Loss: 4.25703 + Fisher Loss: 0.38291
+10/11 19:28  Valid NDCG@5: 0.55669, Recall@2: 0.55028, Recall@5: 0.58782
+10/11 19:28  Best valid Recall@5 at epoch 26
+10/11 19:28  Test NDCG@5: 0.49852, Recall@2: 0.49210, Recall@5: 0.53228
+
+10/11 19:28  Batch 0 / 227, Loss: 4.07882 = CE Loss: 4.01393 + Fisher Loss: 0.32448
+10/11 19:30  Batch 45 / 227, Loss: 4.23452 = CE Loss: 4.17062 + Fisher Loss: 0.31946
+10/11 19:31  Batch 90 / 227, Loss: 4.34331 = CE Loss: 4.27832 + Fisher Loss: 0.32495
+10/11 19:33  Batch 135 / 227, Loss: 4.28309 = CE Loss: 4.18766 + Fisher Loss: 0.47714
+10/11 19:34  Batch 180 / 227, Loss: 4.23768 = CE Loss: 4.14558 + Fisher Loss: 0.46053
+10/11 19:36  Batch 225 / 227, Loss: 4.40399 = CE Loss: 4.29803 + Fisher Loss: 0.52977
+10/11 19:37  Epoch 29 / 100, Loss: 4.32893= CE Loss: 4.24899 + Fisher Loss: 0.39971
+10/11 19:37  Valid NDCG@5: 0.55784, Recall@2: 0.55115, Recall@5: 0.59019
+10/11 19:38  New test result:
+ {'hit_ratio': array([0.45903767, 0.49241324, 0.53493618, 0.56744646, 0.60264532,
+       0.65286319]),
+ 'mrr': 0.49581158880239573,
+ 'ndcg': array([0.45903767, 0.48009531, 0.49925609, 0.50979583, 0.51868506,
+       0.52866438]),
+ 'precision': array([0.45903767, 0.24620662, 0.10698724, 0.05674465, 0.03013227,
+       0.01305726]),
+ 'recall': array([0.45903767, 0.49241324, 0.53493618, 0.56744646, 0.60264532,
+       0.65286319])}
+10/11 19:38  Best valid Recall@5 at epoch 29
+10/11 19:38  Test NDCG@5: 0.49926, Recall@2: 0.49241, Recall@5: 0.53494
+
+10/11 19:38  Batch 0 / 227, Loss: 4.15858 = CE Loss: 4.09531 + Fisher Loss: 0.31637
+10/11 19:40  Batch 45 / 227, Loss: 4.25249 = CE Loss: 4.18916 + Fisher Loss: 0.31664
+10/11 19:42  Batch 90 / 227, Loss: 4.44661 = CE Loss: 4.27278 + Fisher Loss: 0.86915
+10/11 19:43  Batch 135 / 227, Loss: 4.23744 = CE Loss: 4.08935 + Fisher Loss: 0.74044
+10/11 19:45  Batch 180 / 227, Loss: 4.38824 = CE Loss: 4.32561 + Fisher Loss: 0.31317
+10/11 19:46  Batch 225 / 227, Loss: 4.30351 = CE Loss: 4.12655 + Fisher Loss: 0.88476
+10/11 19:48  Epoch 30 / 100, Loss: 4.31923= CE Loss: 4.24299 + Fisher Loss: 0.38117
+10/11 19:48  Valid NDCG@5: 0.55781, Recall@2: 0.55166, Recall@5: 0.58919
+10/11 19:48  Best valid Recall@5 at epoch 29
+10/11 19:48  Test NDCG@5: 0.49926, Recall@2: 0.49241, Recall@5: 0.53494
+
+10/11 19:48  Batch 0 / 227, Loss: 4.36184 = CE Loss: 4.29587 + Fisher Loss: 0.32987
+10/11 19:49  Batch 45 / 227, Loss: 4.20913 = CE Loss: 4.14697 + Fisher Loss: 0.31079
+10/11 19:51  Batch 90 / 227, Loss: 4.30206 = CE Loss: 4.24004 + Fisher Loss: 0.31011
+10/11 19:52  Batch 135 / 227, Loss: 4.36394 = CE Loss: 4.30154 + Fisher Loss: 0.31201
+10/11 19:54  Batch 180 / 227, Loss: 4.25939 = CE Loss: 4.19672 + Fisher Loss: 0.31335
+10/11 19:55  Batch 225 / 227, Loss: 4.30787 = CE Loss: 4.24544 + Fisher Loss: 0.31215
+10/11 19:57  Epoch 31 / 100, Loss: 4.30887= CE Loss: 4.23505 + Fisher Loss: 0.36909
+10/11 19:57  Valid NDCG@5: 0.55886, Recall@2: 0.55327, Recall@5: 0.59157
+10/11 19:58  New test result:
+ {'hit_ratio': array([0.46049013, 0.49470008, 0.53434902, 0.5678482 , 0.60388145,
+       0.65314132]),
+ 'mrr': 0.497038890452291,
+ 'ndcg': array([0.46049013, 0.48207421, 0.49995688, 0.51078863, 0.51986378,
+       0.52967974]),
+ 'precision': array([0.46049013, 0.24735004, 0.1068698 , 0.05678482, 0.03019407,
+       0.01306283]),
+ 'recall': array([0.46049013, 0.49470008, 0.53434902, 0.5678482 , 0.60388145,
+       0.65314132])}
+10/11 19:58  Best valid Recall@5 at epoch 31
+10/11 19:58  Test NDCG@5: 0.49996, Recall@2: 0.49470, Recall@5: 0.53435
+
+10/11 19:58  Batch 0 / 227, Loss: 4.13221 = CE Loss: 4.07010 + Fisher Loss: 0.31058
+10/11 20:00  Batch 45 / 227, Loss: 4.24728 = CE Loss: 4.18494 + Fisher Loss: 0.31166
+10/11 20:01  Batch 90 / 227, Loss: 4.25683 = CE Loss: 4.19398 + Fisher Loss: 0.31425
+10/11 20:03  Batch 135 / 227, Loss: 4.23830 = CE Loss: 4.17721 + Fisher Loss: 0.30546
+10/11 20:04  Batch 180 / 227, Loss: 4.19529 = CE Loss: 4.13391 + Fisher Loss: 0.30691
+10/11 20:06  Batch 225 / 227, Loss: 4.36102 = CE Loss: 4.29989 + Fisher Loss: 0.30562
+10/11 20:07  Epoch 32 / 100, Loss: 4.30563= CE Loss: 4.22812 + Fisher Loss: 0.38756
+10/11 20:07  Valid NDCG@5: 0.55859, Recall@2: 0.55216, Recall@5: 0.59090
+10/11 20:07  Best valid Recall@5 at epoch 31
+10/11 20:07  Test NDCG@5: 0.49996, Recall@2: 0.49470, Recall@5: 0.53435
+
+10/11 20:07  Batch 0 / 227, Loss: 4.19391 = CE Loss: 4.13211 + Fisher Loss: 0.30898
+10/11 20:09  Batch 45 / 227, Loss: 4.26742 = CE Loss: 4.20540 + Fisher Loss: 0.31010
+10/11 20:10  Batch 90 / 227, Loss: 4.21791 = CE Loss: 4.15710 + Fisher Loss: 0.30406
+10/11 20:12  Batch 135 / 227, Loss: 4.24619 = CE Loss: 4.18433 + Fisher Loss: 0.30926
+10/11 20:14  Batch 180 / 227, Loss: 4.39529 = CE Loss: 4.26095 + Fisher Loss: 0.67170
+10/11 20:15  Batch 225 / 227, Loss: 4.39942 = CE Loss: 4.33771 + Fisher Loss: 0.30853
+10/11 20:16  Epoch 33 / 100, Loss: 4.29761= CE Loss: 4.22058 + Fisher Loss: 0.38514
+10/11 20:16  Valid NDCG@5: 0.55784, Recall@2: 0.55189, Recall@5: 0.58922
+10/11 20:16  Best valid Recall@5 at epoch 31
+10/11 20:16  Test NDCG@5: 0.49996, Recall@2: 0.49470, Recall@5: 0.53435
+
+10/11 20:16  Batch 0 / 227, Loss: 4.19785 = CE Loss: 4.09790 + Fisher Loss: 0.49972
+10/11 20:18  Batch 45 / 227, Loss: 4.15745 = CE Loss: 4.08197 + Fisher Loss: 0.37740
+10/11 20:20  Batch 90 / 227, Loss: 4.17400 = CE Loss: 4.11109 + Fisher Loss: 0.31454
+10/11 20:21  Batch 135 / 227, Loss: 4.24626 = CE Loss: 4.14768 + Fisher Loss: 0.49294
+10/11 20:23  Batch 180 / 227, Loss: 4.35224 = CE Loss: 4.28959 + Fisher Loss: 0.31324
+10/11 20:24  Batch 225 / 227, Loss: 4.35355 = CE Loss: 4.24120 + Fisher Loss: 0.56174
+10/11 20:26  Epoch 34 / 100, Loss: 4.29400= CE Loss: 4.21451 + Fisher Loss: 0.39748
+10/11 20:26  Valid NDCG@5: 0.56130, Recall@2: 0.55621, Recall@5: 0.59214
+10/11 20:27  New test result:
+ {'hit_ratio': array([0.46429123, 0.49497821, 0.53611051, 0.56930066, 0.60388145,
+       0.65561359]),
+ 'mrr': 0.49943518259584063,
+ 'ndcg': array([0.46429123, 0.48365256, 0.5022061 , 0.51296392, 0.52169621,
+       0.53193844]),
+ 'precision': array([0.46429123, 0.24748911, 0.1072221 , 0.05693007, 0.03019407,
+       0.01311227]),
+ 'recall': array([0.46429123, 0.49497821, 0.53611051, 0.56930066, 0.60388145,
+       0.65561359])}
+10/11 20:27  Best valid Recall@5 at epoch 34
+10/11 20:27  Test NDCG@5: 0.50221, Recall@2: 0.49498, Recall@5: 0.53611
+
+10/11 20:27  Batch 0 / 227, Loss: 4.13563 = CE Loss: 4.07293 + Fisher Loss: 0.31352
+10/11 20:29  Batch 45 / 227, Loss: 4.21083 = CE Loss: 4.12377 + Fisher Loss: 0.43527
+10/11 20:30  Batch 90 / 227, Loss: 4.11853 = CE Loss: 4.05296 + Fisher Loss: 0.32785
+10/11 20:32  Batch 135 / 227, Loss: 4.19618 = CE Loss: 4.13406 + Fisher Loss: 0.31060
+10/11 20:33  Batch 180 / 227, Loss: 4.34619 = CE Loss: 4.28434 + Fisher Loss: 0.30924
+10/11 20:35  Batch 225 / 227, Loss: 4.21125 = CE Loss: 4.14948 + Fisher Loss: 0.30886
+10/11 20:36  Epoch 35 / 100, Loss: 4.28495= CE Loss: 4.21211 + Fisher Loss: 0.36418
+10/11 20:36  Valid NDCG@5: 0.55796, Recall@2: 0.55072, Recall@5: 0.59036
+10/11 20:36  Best valid Recall@5 at epoch 34
+10/11 20:36  Test NDCG@5: 0.50221, Recall@2: 0.49498, Recall@5: 0.53611
+
+10/11 20:36  Batch 0 / 227, Loss: 3.96351 = CE Loss: 3.90136 + Fisher Loss: 0.31077
+10/11 20:38  Batch 45 / 227, Loss: 4.15318 = CE Loss: 4.09130 + Fisher Loss: 0.30943
+10/11 20:39  Batch 90 / 227, Loss: 4.27441 = CE Loss: 4.21421 + Fisher Loss: 0.30100
+10/11 20:41  Batch 135 / 227, Loss: 4.19039 = CE Loss: 4.12862 + Fisher Loss: 0.30886
+10/11 20:42  Batch 180 / 227, Loss: 4.28987 = CE Loss: 4.22816 + Fisher Loss: 0.30853
+10/11 20:44  Batch 225 / 227, Loss: 4.32806 = CE Loss: 4.25508 + Fisher Loss: 0.36492
+10/11 20:45  Epoch 36 / 100, Loss: 4.27888= CE Loss: 4.20624 + Fisher Loss: 0.36318
+10/11 20:45  Valid NDCG@5: 0.56231, Recall@2: 0.55665, Recall@5: 0.59415
+10/11 20:46  New test result:
+ {'hit_ratio': array([0.46456936, 0.49652338, 0.53771748, 0.57134028, 0.60465404,
+       0.65502642]),
+ 'mrr': 0.5002599069489756,
+ 'ndcg': array([0.46456936, 0.4847301 , 0.50327992, 0.51415891, 0.52257813,
+       0.53258967]),
+ 'precision': array([0.46456936, 0.24826169, 0.1075435 , 0.05713403, 0.0302327 ,
+       0.01310053]),
+ 'recall': array([0.46456936, 0.49652338, 0.53771748, 0.57134028, 0.60465404,
+       0.65502642])}
+10/11 20:46  Best valid Recall@5 at epoch 36
+10/11 20:46  Test NDCG@5: 0.50328, Recall@2: 0.49652, Recall@5: 0.53772
+
+10/11 20:46  Batch 0 / 227, Loss: 4.15918 = CE Loss: 4.09714 + Fisher Loss: 0.31018
+10/11 20:48  Batch 45 / 227, Loss: 4.21283 = CE Loss: 4.15150 + Fisher Loss: 0.30662
+10/11 20:50  Batch 90 / 227, Loss: 4.21595 = CE Loss: 4.15452 + Fisher Loss: 0.30716
+10/11 20:51  Batch 135 / 227, Loss: 4.31310 = CE Loss: 4.25290 + Fisher Loss: 0.30102
+10/11 20:53  Batch 180 / 227, Loss: 4.35711 = CE Loss: 4.29543 + Fisher Loss: 0.30843
+10/11 20:54  Batch 225 / 227, Loss: 4.18611 = CE Loss: 4.12515 + Fisher Loss: 0.30481
+10/11 20:56  Epoch 37 / 100, Loss: 4.27886= CE Loss: 4.20214 + Fisher Loss: 0.38362
+10/11 20:56  Valid NDCG@5: 0.56224, Recall@2: 0.55709, Recall@5: 0.59405
+10/11 20:56  Best valid Recall@5 at epoch 36
+10/11 20:56  Test NDCG@5: 0.50328, Recall@2: 0.49652, Recall@5: 0.53772
+
+10/11 20:56  Batch 0 / 227, Loss: 4.21137 = CE Loss: 4.15049 + Fisher Loss: 0.30440
+10/11 20:57  Batch 45 / 227, Loss: 4.11939 = CE Loss: 4.05729 + Fisher Loss: 0.31054
+10/11 20:59  Batch 90 / 227, Loss: 4.21280 = CE Loss: 4.14259 + Fisher Loss: 0.35103
+10/11 21:00  Batch 135 / 227, Loss: 4.25221 = CE Loss: 4.19092 + Fisher Loss: 0.30644
+10/11 21:02  Batch 180 / 227, Loss: 4.22945 = CE Loss: 4.16737 + Fisher Loss: 0.31037
+10/11 21:04  Batch 225 / 227, Loss: 4.20705 = CE Loss: 4.14589 + Fisher Loss: 0.30583
+10/11 21:05  Epoch 38 / 100, Loss: 4.27309= CE Loss: 4.19599 + Fisher Loss: 0.38552
+10/11 21:05  Valid NDCG@5: 0.56317, Recall@2: 0.55749, Recall@5: 0.59442
+10/11 21:06  New test result:
+ {'hit_ratio': array([0.46599091, 0.49738867, 0.53781019, 0.5706604 , 0.60490126,
+       0.65567539]),
+ 'mrr': 0.5012568904260861,
+ 'ndcg': array([0.46599091, 0.48580069, 0.50406006, 0.51471467, 0.52336312,
+       0.53345562]),
+ 'precision': array([0.46599091, 0.24869434, 0.10756204, 0.05706604, 0.03024506,
+       0.01311351]),
+ 'recall': array([0.46599091, 0.49738867, 0.53781019, 0.5706604 , 0.60490126,
+       0.65567539])}
+10/11 21:06  Best valid Recall@5 at epoch 38
+10/11 21:06  Test NDCG@5: 0.50406, Recall@2: 0.49739, Recall@5: 0.53781
+
+10/11 21:06  Batch 0 / 227, Loss: 4.15115 = CE Loss: 4.02327 + Fisher Loss: 0.63941
+10/11 21:08  Batch 45 / 227, Loss: 4.06515 = CE Loss: 4.00217 + Fisher Loss: 0.31488
+10/11 21:09  Batch 90 / 227, Loss: 4.14414 = CE Loss: 4.07825 + Fisher Loss: 0.32948
+10/11 21:11  Batch 135 / 227, Loss: 4.36325 = CE Loss: 4.30134 + Fisher Loss: 0.30957
+10/11 21:12  Batch 180 / 227, Loss: 4.26421 = CE Loss: 4.20062 + Fisher Loss: 0.31793
+10/11 21:14  Batch 225 / 227, Loss: 4.13238 = CE Loss: 4.07226 + Fisher Loss: 0.30063
+10/11 21:15  Epoch 39 / 100, Loss: 4.26741= CE Loss: 4.19109 + Fisher Loss: 0.38162
+10/11 21:15  Valid NDCG@5: 0.56133, Recall@2: 0.55638, Recall@5: 0.59274
+10/11 21:15  Best valid Recall@5 at epoch 38
+10/11 21:15  Test NDCG@5: 0.50406, Recall@2: 0.49739, Recall@5: 0.53781
+
+10/11 21:15  Batch 0 / 227, Loss: 4.13935 = CE Loss: 4.07716 + Fisher Loss: 0.31095
+10/11 21:17  Batch 45 / 227, Loss: 4.01427 = CE Loss: 3.95195 + Fisher Loss: 0.31161
+10/11 21:18  Batch 90 / 227, Loss: 4.15631 = CE Loss: 4.09451 + Fisher Loss: 0.30900
+10/11 21:20  Batch 135 / 227, Loss: 4.17007 = CE Loss: 4.10729 + Fisher Loss: 0.31387
+10/11 21:22  Batch 180 / 227, Loss: 4.20687 = CE Loss: 4.14459 + Fisher Loss: 0.31136
+10/11 21:23  Batch 225 / 227, Loss: 4.35409 = CE Loss: 4.29231 + Fisher Loss: 0.30891
+10/11 21:24  Epoch 40 / 100, Loss: 4.26540= CE Loss: 4.18671 + Fisher Loss: 0.39342
+10/11 21:24  Valid NDCG@5: 0.56416, Recall@2: 0.55782, Recall@5: 0.59626
+10/11 21:26  New test result:
+ {'hit_ratio': array([0.46497111, 0.49775951, 0.53842826, 0.57149479, 0.60542662,
+       0.65616984]),
+ 'mrr': 0.5009981533198479,
+ 'ndcg': array([0.46497111, 0.48565829, 0.50402686, 0.51475392, 0.52331027,
+       0.53340186]),
+ 'precision': array([0.46497111, 0.24887976, 0.10768565, 0.05714948, 0.03027133,
+       0.0131234 ]),
+ 'recall': array([0.46497111, 0.49775951, 0.53842826, 0.57149479, 0.60542662,
+       0.65616984])}
+10/11 21:26  Best valid Recall@5 at epoch 40
+10/11 21:26  Test NDCG@5: 0.50403, Recall@2: 0.49776, Recall@5: 0.53843
+
+10/11 21:26  Batch 0 / 227, Loss: 3.95504 = CE Loss: 3.89469 + Fisher Loss: 0.30173
+10/11 21:27  Batch 45 / 227, Loss: 4.24175 = CE Loss: 4.17800 + Fisher Loss: 0.31870
+10/11 21:29  Batch 90 / 227, Loss: 4.34662 = CE Loss: 4.28636 + Fisher Loss: 0.30128
+10/11 21:31  Batch 135 / 227, Loss: 4.26661 = CE Loss: 4.20473 + Fisher Loss: 0.30938
+10/11 21:32  Batch 180 / 227, Loss: 4.20171 = CE Loss: 4.14079 + Fisher Loss: 0.30463
+10/11 21:34  Batch 225 / 227, Loss: 4.30117 = CE Loss: 4.17189 + Fisher Loss: 0.64639
+10/11 21:35  Epoch 41 / 100, Loss: 4.25959= CE Loss: 4.18245 + Fisher Loss: 0.38569
+10/11 21:35  Valid NDCG@5: 0.56170, Recall@2: 0.55605, Recall@5: 0.59381
+10/11 21:35  Best valid Recall@5 at epoch 40
+10/11 21:35  Test NDCG@5: 0.50403, Recall@2: 0.49776, Recall@5: 0.53843
+
+10/11 21:35  Batch 0 / 227, Loss: 4.07291 = CE Loss: 3.95451 + Fisher Loss: 0.59204
+10/11 21:37  Batch 45 / 227, Loss: 4.06426 = CE Loss: 4.00357 + Fisher Loss: 0.30347
+10/11 21:38  Batch 90 / 227, Loss: 4.21979 = CE Loss: 4.14840 + Fisher Loss: 0.35695
+10/11 21:40  Batch 135 / 227, Loss: 4.20877 = CE Loss: 4.14788 + Fisher Loss: 0.30446
+10/11 21:41  Batch 180 / 227, Loss: 4.25441 = CE Loss: 4.19211 + Fisher Loss: 0.31149
+10/11 21:43  Batch 225 / 227, Loss: 4.20735 = CE Loss: 4.10064 + Fisher Loss: 0.53356
+10/11 21:44  Epoch 42 / 100, Loss: 4.25383= CE Loss: 4.17664 + Fisher Loss: 0.38593
+10/11 21:44  Valid NDCG@5: 0.56401, Recall@2: 0.55652, Recall@5: 0.59653
+10/11 21:45  New test result:
+ {'hit_ratio': array([0.46577459, 0.49760499, 0.5388609 , 0.5715566 , 0.60626101,
+       0.65496462]),
+ 'mrr': 0.5013456202863452,
+ 'ndcg': array([0.46577459, 0.48585734, 0.50443104, 0.51502393, 0.52378566,
+       0.53346972]),
+ 'precision': array([0.46577459, 0.2488025 , 0.10777218, 0.05715566, 0.03031305,
+       0.01309929]),
+ 'recall': array([0.46577459, 0.49760499, 0.5388609 , 0.5715566 , 0.60626101,
+       0.65496462])}
+10/11 21:45  Best valid Recall@5 at epoch 42
+10/11 21:45  Test NDCG@5: 0.50443, Recall@2: 0.49760, Recall@5: 0.53886
+
+10/11 21:46  Batch 0 / 227, Loss: 4.11481 = CE Loss: 4.05329 + Fisher Loss: 0.30763
+10/11 21:47  Batch 45 / 227, Loss: 4.04400 = CE Loss: 3.98303 + Fisher Loss: 0.30486
+10/11 21:49  Batch 90 / 227, Loss: 4.13836 = CE Loss: 4.07738 + Fisher Loss: 0.30491
+10/11 21:50  Batch 135 / 227, Loss: 4.15201 = CE Loss: 4.09026 + Fisher Loss: 0.30875
+10/11 21:52  Batch 180 / 227, Loss: 4.22435 = CE Loss: 4.16163 + Fisher Loss: 0.31360
+10/11 21:53  Batch 225 / 227, Loss: 4.22579 = CE Loss: 4.15461 + Fisher Loss: 0.35594
+10/11 21:55  Epoch 43 / 100, Loss: 4.24969= CE Loss: 4.17400 + Fisher Loss: 0.37844
+10/11 21:55  Valid NDCG@5: 0.56476, Recall@2: 0.55863, Recall@5: 0.59613
+10/11 21:55  Best valid Recall@5 at epoch 42
+10/11 21:55  Test NDCG@5: 0.50443, Recall@2: 0.49760, Recall@5: 0.53886
+
+10/11 21:55  Batch 0 / 227, Loss: 4.10139 = CE Loss: 4.04010 + Fisher Loss: 0.30645
+10/11 21:56  Batch 45 / 227, Loss: 4.34874 = CE Loss: 4.16703 + Fisher Loss: 0.90854
+10/11 21:58  Batch 90 / 227, Loss: 4.16685 = CE Loss: 4.10563 + Fisher Loss: 0.30610
+10/11 21:59  Batch 135 / 227, Loss: 4.25891 = CE Loss: 4.19918 + Fisher Loss: 0.29866
+10/11 22:01  Batch 180 / 227, Loss: 4.38230 = CE Loss: 4.32030 + Fisher Loss: 0.30998
+10/11 22:03  Batch 225 / 227, Loss: 4.26481 = CE Loss: 4.20380 + Fisher Loss: 0.30504
+10/11 22:04  Epoch 44 / 100, Loss: 4.24537= CE Loss: 4.17128 + Fisher Loss: 0.37044
+10/11 22:04  Valid NDCG@5: 0.56519, Recall@2: 0.55903, Recall@5: 0.59656
+10/11 22:05  New test result:
+ {'hit_ratio': array([0.46617633, 0.4976668 , 0.53815013, 0.57180383, 0.60573565,
+       0.65703514]),
+ 'mrr': 0.5015400128517894,
+ 'ndcg': array([0.46617633, 0.48604461, 0.5042608 , 0.51520122, 0.5237726 ,
+       0.53395078]),
+ 'precision': array([0.46617633, 0.2488334 , 0.10763003, 0.05718038, 0.03028678,
+       0.0131407 ]),
+ 'recall': array([0.46617633, 0.4976668 , 0.53815013, 0.57180383, 0.60573565,
+       0.65703514])}
+10/11 22:05  Best valid Recall@5 at epoch 44
+10/11 22:05  Test NDCG@5: 0.50426, Recall@2: 0.49767, Recall@5: 0.53815
+
+10/11 22:05  Batch 0 / 227, Loss: 4.13691 = CE Loss: 4.07618 + Fisher Loss: 0.30365
+10/11 22:07  Batch 45 / 227, Loss: 4.24396 = CE Loss: 4.18342 + Fisher Loss: 0.30271
+10/11 22:08  Batch 90 / 227, Loss: 4.13127 = CE Loss: 4.07258 + Fisher Loss: 0.29345
+10/11 22:10  Batch 135 / 227, Loss: 4.13002 = CE Loss: 4.06866 + Fisher Loss: 0.30681
+10/11 22:11  Batch 180 / 227, Loss: 4.23488 = CE Loss: 4.16445 + Fisher Loss: 0.35212
+10/11 22:13  Batch 225 / 227, Loss: 4.19598 = CE Loss: 4.13828 + Fisher Loss: 0.28853
+10/11 22:14  Epoch 45 / 100, Loss: 4.24140= CE Loss: 4.16827 + Fisher Loss: 0.36565
+10/11 22:14  Valid NDCG@5: 0.56363, Recall@2: 0.55772, Recall@5: 0.59495
+10/11 22:14  Best valid Recall@5 at epoch 44
+10/11 22:14  Test NDCG@5: 0.50426, Recall@2: 0.49767, Recall@5: 0.53815
+
+10/11 22:14  Batch 0 / 227, Loss: 4.04316 = CE Loss: 3.98376 + Fisher Loss: 0.29703
+10/11 22:16  Batch 45 / 227, Loss: 4.24943 = CE Loss: 4.19010 + Fisher Loss: 0.29669
+10/11 22:18  Batch 90 / 227, Loss: 4.24089 = CE Loss: 4.18313 + Fisher Loss: 0.28877
+10/11 22:19  Batch 135 / 227, Loss: 4.12272 = CE Loss: 4.06209 + Fisher Loss: 0.30314
+10/11 22:21  Batch 180 / 227, Loss: 4.39137 = CE Loss: 4.23417 + Fisher Loss: 0.78602
+10/11 22:22  Batch 225 / 227, Loss: 4.11332 = CE Loss: 4.05328 + Fisher Loss: 0.30018
+10/11 22:24  Epoch 46 / 100, Loss: 4.23402= CE Loss: 4.16232 + Fisher Loss: 0.35851
+10/11 22:24  Valid NDCG@5: 0.56161, Recall@2: 0.55497, Recall@5: 0.59227
+10/11 22:24  Best valid Recall@5 at epoch 44
+10/11 22:24  Test NDCG@5: 0.50426, Recall@2: 0.49767, Recall@5: 0.53815
+
+10/11 22:24  Batch 0 / 227, Loss: 4.17685 = CE Loss: 4.11722 + Fisher Loss: 0.29819
+10/11 22:25  Batch 45 / 227, Loss: 4.13383 = CE Loss: 4.07110 + Fisher Loss: 0.31364
+10/11 22:27  Batch 90 / 227, Loss: 4.30812 = CE Loss: 4.24871 + Fisher Loss: 0.29704
+10/11 22:28  Batch 135 / 227, Loss: 4.20010 = CE Loss: 4.11891 + Fisher Loss: 0.40596
+10/11 22:30  Batch 180 / 227, Loss: 4.32862 = CE Loss: 4.27016 + Fisher Loss: 0.29232
+10/11 22:31  Batch 225 / 227, Loss: 4.15745 = CE Loss: 4.09927 + Fisher Loss: 0.29094
+10/11 22:33  Epoch 47 / 100, Loss: 4.23095= CE Loss: 4.16012 + Fisher Loss: 0.35416
+10/11 22:33  Valid NDCG@5: 0.56493, Recall@2: 0.55869, Recall@5: 0.59582
+10/11 22:33  Best valid Recall@5 at epoch 44
+10/11 22:33  Test NDCG@5: 0.50426, Recall@2: 0.49767, Recall@5: 0.53815
+
+10/11 22:33  Batch 0 / 227, Loss: 4.25469 = CE Loss: 4.19602 + Fisher Loss: 0.29335
+10/11 22:34  Batch 45 / 227, Loss: 4.25874 = CE Loss: 4.19885 + Fisher Loss: 0.29946
+10/11 22:36  Batch 90 / 227, Loss: 4.23064 = CE Loss: 4.17272 + Fisher Loss: 0.28960
+10/11 22:37  Batch 135 / 227, Loss: 4.20927 = CE Loss: 4.15106 + Fisher Loss: 0.29104
+10/11 22:39  Batch 180 / 227, Loss: 4.10482 = CE Loss: 4.03905 + Fisher Loss: 0.32887
+10/11 22:41  Batch 225 / 227, Loss: 4.33521 = CE Loss: 4.27616 + Fisher Loss: 0.29525
+10/11 22:42  Epoch 48 / 100, Loss: 4.23504= CE Loss: 4.15833 + Fisher Loss: 0.38358
+10/11 22:42  Valid NDCG@5: 0.56442, Recall@2: 0.55910, Recall@5: 0.59572
+10/11 22:42  Best valid Recall@5 at epoch 44
+10/11 22:42  Test NDCG@5: 0.50426, Recall@2: 0.49767, Recall@5: 0.53815
+
+10/11 22:42  Batch 0 / 227, Loss: 4.14363 = CE Loss: 4.07776 + Fisher Loss: 0.32933
+10/11 22:43  Batch 45 / 227, Loss: 4.19671 = CE Loss: 4.13112 + Fisher Loss: 0.32792
+10/11 22:45  Batch 90 / 227, Loss: 4.36743 = CE Loss: 4.27233 + Fisher Loss: 0.47552
+10/11 22:47  Batch 135 / 227, Loss: 4.23175 = CE Loss: 4.14907 + Fisher Loss: 0.41342
+10/11 22:48  Batch 180 / 227, Loss: 4.17280 = CE Loss: 4.11483 + Fisher Loss: 0.28986
+10/11 22:50  Batch 225 / 227, Loss: 4.22746 = CE Loss: 4.16938 + Fisher Loss: 0.29039
+10/11 22:51  Epoch 49 / 100, Loss: 4.22459= CE Loss: 4.15318 + Fisher Loss: 0.35705
+10/11 22:51  Valid NDCG@5: 0.56483, Recall@2: 0.55829, Recall@5: 0.59572
+10/11 22:51  Best valid Recall@5 at epoch 44
+10/11 22:51  Test NDCG@5: 0.50426, Recall@2: 0.49767, Recall@5: 0.53815
+
+10/11 22:51  Batch 0 / 227, Loss: 4.19437 = CE Loss: 4.00686 + Fisher Loss: 0.93752
+10/11 22:53  Batch 45 / 227, Loss: 4.04256 = CE Loss: 3.98327 + Fisher Loss: 0.29643
+10/11 22:54  Batch 90 / 227, Loss: 4.05373 = CE Loss: 3.92693 + Fisher Loss: 0.63398
+10/11 22:56  Batch 135 / 227, Loss: 4.31891 = CE Loss: 4.26047 + Fisher Loss: 0.29220
+10/11 22:57  Batch 180 / 227, Loss: 4.17625 = CE Loss: 4.11736 + Fisher Loss: 0.29446
+10/11 22:59  Batch 225 / 227, Loss: 4.24883 = CE Loss: 4.18958 + Fisher Loss: 0.29622
+10/11 23:00  Epoch 50 / 100, Loss: 4.22335= CE Loss: 4.15043 + Fisher Loss: 0.36460
+10/11 23:00  Valid NDCG@5: 0.56642, Recall@2: 0.55906, Recall@5: 0.59797
+10/11 23:01  New test result:
+ {'hit_ratio': array([0.46821595, 0.50106616, 0.53938626, 0.57266912, 0.60694088,
+       0.65650978]),
+ 'mrr': 0.5035958338614811,
+ 'ndcg': array([0.46821595, 0.48894213, 0.50619862, 0.51700761, 0.52567281,
+       0.53550685]),
+ 'precision': array([0.46821595, 0.25053308, 0.10787725, 0.05726691, 0.03034704,
+       0.0131302 ]),
+ 'recall': array([0.46821595, 0.50106616, 0.53938626, 0.57266912, 0.60694088,
+       0.65650978])}
+10/11 23:01  Best valid Recall@5 at epoch 50
+10/11 23:01  Test NDCG@5: 0.50620, Recall@2: 0.50107, Recall@5: 0.53939
+
+10/11 23:01  Batch 0 / 227, Loss: 4.08729 = CE Loss: 4.02806 + Fisher Loss: 0.29611
+10/11 23:03  Batch 45 / 227, Loss: 4.16331 = CE Loss: 4.10543 + Fisher Loss: 0.28943
+10/11 23:05  Batch 90 / 227, Loss: 4.08363 = CE Loss: 4.00839 + Fisher Loss: 0.37620
+10/11 23:06  Batch 135 / 227, Loss: 4.17619 = CE Loss: 4.08870 + Fisher Loss: 0.43742
+10/11 23:08  Batch 180 / 227, Loss: 4.20265 = CE Loss: 4.14428 + Fisher Loss: 0.29185
+10/11 23:09  Batch 225 / 227, Loss: 4.22621 = CE Loss: 4.14650 + Fisher Loss: 0.39856
+10/11 23:11  Epoch 51 / 100, Loss: 4.21965= CE Loss: 4.14736 + Fisher Loss: 0.36143
+10/11 23:11  Valid NDCG@5: 0.56344, Recall@2: 0.55678, Recall@5: 0.59532
+10/11 23:11  Best valid Recall@5 at epoch 50
+10/11 23:11  Test NDCG@5: 0.50620, Recall@2: 0.50107, Recall@5: 0.53939
+
+10/11 23:11  Batch 0 / 227, Loss: 4.14899 = CE Loss: 4.09060 + Fisher Loss: 0.29198
+10/11 23:12  Batch 45 / 227, Loss: 4.16403 = CE Loss: 4.10546 + Fisher Loss: 0.29286
+10/11 23:14  Batch 90 / 227, Loss: 4.15837 = CE Loss: 4.10080 + Fisher Loss: 0.28789
+10/11 23:15  Batch 135 / 227, Loss: 4.23365 = CE Loss: 4.16259 + Fisher Loss: 0.35532
+10/11 23:17  Batch 180 / 227, Loss: 4.11689 = CE Loss: 4.05583 + Fisher Loss: 0.30529
+10/11 23:18  Batch 225 / 227, Loss: 4.08790 = CE Loss: 4.02898 + Fisher Loss: 0.29461
+10/11 23:20  Epoch 52 / 100, Loss: 4.22048= CE Loss: 4.14597 + Fisher Loss: 0.37256
+10/11 23:20  Valid NDCG@5: 0.56507, Recall@2: 0.55920, Recall@5: 0.59670
+10/11 23:20  Best valid Recall@5 at epoch 50
+10/11 23:20  Test NDCG@5: 0.50620, Recall@2: 0.50107, Recall@5: 0.53939
+
+10/11 23:20  Batch 0 / 227, Loss: 4.06999 = CE Loss: 4.01303 + Fisher Loss: 0.28479
+10/11 23:21  Batch 45 / 227, Loss: 4.18495 = CE Loss: 4.12750 + Fisher Loss: 0.28726
+10/11 23:23  Batch 90 / 227, Loss: 4.09715 = CE Loss: 4.03832 + Fisher Loss: 0.29417
+10/11 23:24  Batch 135 / 227, Loss: 4.27338 = CE Loss: 4.12303 + Fisher Loss: 0.75177
+10/11 23:26  Batch 180 / 227, Loss: 4.21233 = CE Loss: 4.14954 + Fisher Loss: 0.31395
+10/11 23:28  Batch 225 / 227, Loss: 4.11616 = CE Loss: 4.05778 + Fisher Loss: 0.29190
+10/11 23:29  Epoch 53 / 100, Loss: 4.21367= CE Loss: 4.13921 + Fisher Loss: 0.37230
+10/11 23:29  Valid NDCG@5: 0.56763, Recall@2: 0.56127, Recall@5: 0.59908
+10/11 23:30  New test result:
+ {'hit_ratio': array([0.46642356, 0.49890293, 0.54077691, 0.57300905, 0.60774437,
+       0.65808585]),
+ 'mrr': 0.5025510181276124,
+ 'ndcg': array([0.46642356, 0.48691576, 0.50583957, 0.51627483, 0.52505049,
+       0.53504141]),
+ 'precision': array([0.46642356, 0.24945147, 0.10815538, 0.05730091, 0.03038722,
+       0.01316172]),
+ 'recall': array([0.46642356, 0.49890293, 0.54077691, 0.57300905, 0.60774437,
+       0.65808585])}
+10/11 23:30  Best valid Recall@5 at epoch 53
+10/11 23:30  Test NDCG@5: 0.50584, Recall@2: 0.49890, Recall@5: 0.54078
+
+10/11 23:30  Batch 0 / 227, Loss: 4.12595 = CE Loss: 4.05755 + Fisher Loss: 0.34199
+10/11 23:32  Batch 45 / 227, Loss: 4.24228 = CE Loss: 4.14085 + Fisher Loss: 0.50715
+10/11 23:33  Batch 90 / 227, Loss: 4.19176 = CE Loss: 4.01555 + Fisher Loss: 0.88105
+10/11 23:35  Batch 135 / 227, Loss: 4.35497 = CE Loss: 4.21892 + Fisher Loss: 0.68026
+10/11 23:36  Batch 180 / 227, Loss: 4.14416 = CE Loss: 4.08541 + Fisher Loss: 0.29376
+10/11 23:38  Batch 225 / 227, Loss: 4.19253 = CE Loss: 4.13334 + Fisher Loss: 0.29593
+10/11 23:39  Epoch 54 / 100, Loss: 4.21604= CE Loss: 4.13925 + Fisher Loss: 0.38396
+10/11 23:39  Valid NDCG@5: 0.56598, Recall@2: 0.55997, Recall@5: 0.59730
+10/11 23:39  Best valid Recall@5 at epoch 53
+10/11 23:39  Test NDCG@5: 0.50584, Recall@2: 0.49890, Recall@5: 0.54078
+
+10/11 23:39  Batch 0 / 227, Loss: 4.17611 = CE Loss: 4.11746 + Fisher Loss: 0.29327
+10/11 23:41  Batch 45 / 227, Loss: 4.15977 = CE Loss: 4.10203 + Fisher Loss: 0.28871
+10/11 23:42  Batch 90 / 227, Loss: 4.13647 = CE Loss: 4.07917 + Fisher Loss: 0.28649
+10/11 23:44  Batch 135 / 227, Loss: 4.07927 = CE Loss: 4.02051 + Fisher Loss: 0.29378
+10/11 23:46  Batch 180 / 227, Loss: 4.11047 = CE Loss: 4.05355 + Fisher Loss: 0.28460
+10/11 23:47  Batch 225 / 227, Loss: 4.30244 = CE Loss: 4.24520 + Fisher Loss: 0.28621
+10/11 23:48  Epoch 55 / 100, Loss: 4.20312= CE Loss: 4.13253 + Fisher Loss: 0.35296
+10/11 23:48  Valid NDCG@5: 0.56571, Recall@2: 0.55856, Recall@5: 0.59690
+10/11 23:48  Best valid Recall@5 at epoch 53
+10/11 23:48  Test NDCG@5: 0.50584, Recall@2: 0.49890, Recall@5: 0.54078
+
+10/11 23:48  Batch 0 / 227, Loss: 4.05339 = CE Loss: 3.99063 + Fisher Loss: 0.31376
+10/11 23:50  Batch 45 / 227, Loss: 4.16815 = CE Loss: 4.11109 + Fisher Loss: 0.28531
+10/11 23:52  Batch 90 / 227, Loss: 4.09806 = CE Loss: 4.04158 + Fisher Loss: 0.28242
+10/11 23:53  Batch 135 / 227, Loss: 4.36290 = CE Loss: 4.17573 + Fisher Loss: 0.93585
+10/11 23:55  Batch 180 / 227, Loss: 4.15819 = CE Loss: 4.10113 + Fisher Loss: 0.28527
+10/11 23:56  Batch 225 / 227, Loss: 4.17351 = CE Loss: 4.11259 + Fisher Loss: 0.30460
+10/11 23:58  Epoch 56 / 100, Loss: 4.20599= CE Loss: 4.13564 + Fisher Loss: 0.35171
+10/11 23:58  Valid NDCG@5: 0.56728, Recall@2: 0.56044, Recall@5: 0.59911
+10/11 23:59  New test result:
+ {'hit_ratio': array([0.46648537, 0.50038629, 0.54046788, 0.57297815, 0.60758985,
+       0.65820946]),
+ 'mrr': 0.5028053118863065,
+ 'ndcg': array([0.46648537, 0.48787447, 0.50594653, 0.51647021, 0.52519412,
+       0.53525149]),
+ 'precision': array([0.46648537, 0.25019315, 0.10809358, 0.05729782, 0.03037949,
+       0.01316419]),
+ 'recall': array([0.46648537, 0.50038629, 0.54046788, 0.57297815, 0.60758985,
+       0.65820946])}
+10/11 23:59  Best valid Recall@5 at epoch 56
+10/11 23:59  Test NDCG@5: 0.50595, Recall@2: 0.50039, Recall@5: 0.54047
+
+10/11 23:59  Batch 0 / 227, Loss: 3.93600 = CE Loss: 3.88007 + Fisher Loss: 0.27963
+10/12 00:00  Batch 45 / 227, Loss: 4.11247 = CE Loss: 4.05462 + Fisher Loss: 0.28925
+10/12 00:02  Batch 90 / 227, Loss: 4.11205 = CE Loss: 4.05491 + Fisher Loss: 0.28567
+10/12 00:04  Batch 135 / 227, Loss: 4.19077 = CE Loss: 4.13432 + Fisher Loss: 0.28227
+10/12 00:05  Batch 180 / 227, Loss: 4.32273 = CE Loss: 4.20627 + Fisher Loss: 0.58227
+10/12 00:07  Batch 225 / 227, Loss: 4.29449 = CE Loss: 4.20208 + Fisher Loss: 0.46202
+10/12 00:08  Epoch 57 / 100, Loss: 4.20284= CE Loss: 4.13056 + Fisher Loss: 0.36139
+10/12 00:08  Valid NDCG@5: 0.56586, Recall@2: 0.55947, Recall@5: 0.59733
+10/12 00:08  Best valid Recall@5 at epoch 56
+10/12 00:08  Test NDCG@5: 0.50595, Recall@2: 0.50039, Recall@5: 0.54047
+
+10/12 00:08  Batch 0 / 227, Loss: 4.17781 = CE Loss: 4.12095 + Fisher Loss: 0.28431
+10/12 00:10  Batch 45 / 227, Loss: 4.18582 = CE Loss: 4.12804 + Fisher Loss: 0.28888
+10/12 00:11  Batch 90 / 227, Loss: 4.07985 = CE Loss: 4.02387 + Fisher Loss: 0.27991
+10/12 00:13  Batch 135 / 227, Loss: 4.15318 = CE Loss: 4.02783 + Fisher Loss: 0.62672
+10/12 00:14  Batch 180 / 227, Loss: 4.12682 = CE Loss: 4.05752 + Fisher Loss: 0.34653
+10/12 00:16  Batch 225 / 227, Loss: 4.20316 = CE Loss: 4.07186 + Fisher Loss: 0.65651
+10/12 00:17  Epoch 58 / 100, Loss: 4.19810= CE Loss: 4.12693 + Fisher Loss: 0.35587
+10/12 00:17  Valid NDCG@5: 0.56700, Recall@2: 0.56081, Recall@5: 0.59961
+10/12 00:18  New test result:
+ {'hit_ratio': array([0.46663988, 0.50004635, 0.54219846, 0.57405977, 0.60765166,
+       0.65839488]),
+ 'mrr': 0.5030106193776044,
+ 'ndcg': array([0.46663988, 0.48771702, 0.50662075, 0.51694683, 0.52542251,
+       0.53547168]),
+ 'precision': array([0.46663988, 0.25002318, 0.10843969, 0.05740598, 0.03038258,
+       0.0131679 ]),
+ 'recall': array([0.46663988, 0.50004635, 0.54219846, 0.57405977, 0.60765166,
+       0.65839488])}
+10/12 00:18  Best valid Recall@5 at epoch 58
+10/12 00:18  Test NDCG@5: 0.50662, Recall@2: 0.50005, Recall@5: 0.54220
+
+10/12 00:18  Batch 0 / 227, Loss: 4.02800 = CE Loss: 3.96976 + Fisher Loss: 0.29122
+10/12 00:20  Batch 45 / 227, Loss: 4.17343 = CE Loss: 4.07461 + Fisher Loss: 0.49409
+10/12 00:22  Batch 90 / 227, Loss: 4.31613 = CE Loss: 4.15077 + Fisher Loss: 0.82681
+10/12 00:23  Batch 135 / 227, Loss: 4.12172 = CE Loss: 4.06367 + Fisher Loss: 0.29026
+10/12 00:25  Batch 180 / 227, Loss: 4.21582 = CE Loss: 4.12806 + Fisher Loss: 0.43879
+10/12 00:26  Batch 225 / 227, Loss: 4.16732 = CE Loss: 4.10954 + Fisher Loss: 0.28892
+10/12 00:27  Epoch 59 / 100, Loss: 4.19836= CE Loss: 4.12691 + Fisher Loss: 0.35723
+10/12 00:27  Valid NDCG@5: 0.56743, Recall@2: 0.56117, Recall@5: 0.59968
+10/12 00:29  New test result:
+ {'hit_ratio': array([0.46728885, 0.49884113, 0.54049878, 0.57322538, 0.6071263 ,
+       0.65845669]),
+ 'mrr': 0.502802463624739,
+ 'ndcg': array([0.46728885, 0.48719612, 0.50591578, 0.51648734, 0.52507274,
+       0.5352575 ]),
+ 'precision': array([0.46728885, 0.24942056, 0.10809976, 0.05732254, 0.03035632,
+       0.01316913]),
+ 'recall': array([0.46728885, 0.49884113, 0.54049878, 0.57322538, 0.6071263 ,
+       0.65845669])}
+10/12 00:29  Best valid Recall@5 at epoch 59
+10/12 00:29  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 00:29  Batch 0 / 227, Loss: 4.08197 = CE Loss: 3.97776 + Fisher Loss: 0.52104
+10/12 00:30  Batch 45 / 227, Loss: 4.14376 = CE Loss: 4.08554 + Fisher Loss: 0.29110
+10/12 00:32  Batch 90 / 227, Loss: 4.19305 = CE Loss: 4.13487 + Fisher Loss: 0.29088
+10/12 00:34  Batch 135 / 227, Loss: 4.21983 = CE Loss: 4.15503 + Fisher Loss: 0.32401
+10/12 00:35  Batch 180 / 227, Loss: 4.14419 = CE Loss: 4.08737 + Fisher Loss: 0.28410
+10/12 00:37  Batch 225 / 227, Loss: 4.17187 = CE Loss: 4.07297 + Fisher Loss: 0.49449
+10/12 00:38  Epoch 60 / 100, Loss: 4.19223= CE Loss: 4.12129 + Fisher Loss: 0.35471
+10/12 00:38  Valid NDCG@5: 0.56481, Recall@2: 0.55823, Recall@5: 0.59649
+10/12 00:38  Best valid Recall@5 at epoch 59
+10/12 00:38  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 00:38  Batch 0 / 227, Loss: 4.05745 = CE Loss: 4.00132 + Fisher Loss: 0.28067
+10/12 00:39  Batch 45 / 227, Loss: 4.08762 = CE Loss: 4.03300 + Fisher Loss: 0.27310
+10/12 00:41  Batch 90 / 227, Loss: 4.28843 = CE Loss: 4.14021 + Fisher Loss: 0.74108
+10/12 00:43  Batch 135 / 227, Loss: 4.23227 = CE Loss: 4.17649 + Fisher Loss: 0.27890
+10/12 00:44  Batch 180 / 227, Loss: 4.07080 = CE Loss: 4.01519 + Fisher Loss: 0.27806
+10/12 00:46  Batch 225 / 227, Loss: 4.39589 = CE Loss: 4.34085 + Fisher Loss: 0.27522
+10/12 00:47  Epoch 61 / 100, Loss: 4.19445= CE Loss: 4.12127 + Fisher Loss: 0.36591
+10/12 00:47  Valid NDCG@5: 0.56466, Recall@2: 0.55836, Recall@5: 0.59700
+10/12 00:47  Best valid Recall@5 at epoch 59
+10/12 00:47  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 00:47  Batch 0 / 227, Loss: 4.12316 = CE Loss: 4.06767 + Fisher Loss: 0.27744
+10/12 00:49  Batch 45 / 227, Loss: 4.15812 = CE Loss: 4.10255 + Fisher Loss: 0.27787
+10/12 00:50  Batch 90 / 227, Loss: 4.13383 = CE Loss: 4.04854 + Fisher Loss: 0.42645
+10/12 00:52  Batch 135 / 227, Loss: 4.12470 = CE Loss: 4.07018 + Fisher Loss: 0.27260
+10/12 00:53  Batch 180 / 227, Loss: 4.20754 = CE Loss: 4.14216 + Fisher Loss: 0.32686
+10/12 00:55  Batch 225 / 227, Loss: 4.10295 = CE Loss: 4.04426 + Fisher Loss: 0.29345
+10/12 00:56  Epoch 62 / 100, Loss: 4.18882= CE Loss: 4.11930 + Fisher Loss: 0.34760
+10/12 00:56  Valid NDCG@5: 0.56369, Recall@2: 0.55786, Recall@5: 0.59589
+10/12 00:56  Best valid Recall@5 at epoch 59
+10/12 00:56  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 00:56  Batch 0 / 227, Loss: 4.16525 = CE Loss: 4.10936 + Fisher Loss: 0.27948
+10/12 00:58  Batch 45 / 227, Loss: 4.14386 = CE Loss: 4.08718 + Fisher Loss: 0.28341
+10/12 00:59  Batch 90 / 227, Loss: 4.20707 = CE Loss: 4.15315 + Fisher Loss: 0.26958
+10/12 01:01  Batch 135 / 227, Loss: 4.07218 = CE Loss: 4.01638 + Fisher Loss: 0.27901
+10/12 01:03  Batch 180 / 227, Loss: 4.02791 = CE Loss: 3.97053 + Fisher Loss: 0.28689
+10/12 01:04  Batch 225 / 227, Loss: 4.27611 = CE Loss: 4.12069 + Fisher Loss: 0.77711
+10/12 01:05  Epoch 63 / 100, Loss: 4.18603= CE Loss: 4.11842 + Fisher Loss: 0.33807
+10/12 01:05  Valid NDCG@5: 0.56582, Recall@2: 0.56017, Recall@5: 0.59713
+10/12 01:05  Best valid Recall@5 at epoch 59
+10/12 01:05  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 01:05  Batch 0 / 227, Loss: 3.99044 = CE Loss: 3.93348 + Fisher Loss: 0.28482
+10/12 01:07  Batch 45 / 227, Loss: 4.14248 = CE Loss: 4.08743 + Fisher Loss: 0.27521
+10/12 01:09  Batch 90 / 227, Loss: 4.06544 = CE Loss: 4.01201 + Fisher Loss: 0.26717
+10/12 01:10  Batch 135 / 227, Loss: 4.19649 = CE Loss: 4.14182 + Fisher Loss: 0.27336
+10/12 01:12  Batch 180 / 227, Loss: 4.36051 = CE Loss: 4.30517 + Fisher Loss: 0.27667
+10/12 01:13  Batch 225 / 227, Loss: 4.31359 = CE Loss: 4.26036 + Fisher Loss: 0.26615
+10/12 01:14  Epoch 64 / 100, Loss: 4.18284= CE Loss: 4.11289 + Fisher Loss: 0.34976
+10/12 01:14  Valid NDCG@5: 0.56724, Recall@2: 0.56097, Recall@5: 0.59884
+10/12 01:14  Best valid Recall@5 at epoch 59
+10/12 01:14  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 01:15  Batch 0 / 227, Loss: 4.11672 = CE Loss: 4.06224 + Fisher Loss: 0.27239
+10/12 01:16  Batch 45 / 227, Loss: 4.08182 = CE Loss: 4.02723 + Fisher Loss: 0.27294
+10/12 01:18  Batch 90 / 227, Loss: 4.18009 = CE Loss: 4.12519 + Fisher Loss: 0.27450
+10/12 01:19  Batch 135 / 227, Loss: 4.28438 = CE Loss: 4.19463 + Fisher Loss: 0.44872
+10/12 01:21  Batch 180 / 227, Loss: 4.20459 = CE Loss: 4.08549 + Fisher Loss: 0.59550
+10/12 01:22  Batch 225 / 227, Loss: 4.12768 = CE Loss: 4.07329 + Fisher Loss: 0.27194
+10/12 01:24  Epoch 65 / 100, Loss: 4.18255= CE Loss: 4.11348 + Fisher Loss: 0.34532
+10/12 01:24  Valid NDCG@5: 0.56597, Recall@2: 0.56044, Recall@5: 0.59814
+10/12 01:24  Best valid Recall@5 at epoch 59
+10/12 01:24  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 01:24  Batch 0 / 227, Loss: 4.19420 = CE Loss: 4.07403 + Fisher Loss: 0.60085
+10/12 01:25  Batch 45 / 227, Loss: 4.09640 = CE Loss: 4.04123 + Fisher Loss: 0.27582
+10/12 01:27  Batch 90 / 227, Loss: 4.07302 = CE Loss: 3.97097 + Fisher Loss: 0.51027
+10/12 01:28  Batch 135 / 227, Loss: 4.13634 = CE Loss: 4.08256 + Fisher Loss: 0.26889
+10/12 01:30  Batch 180 / 227, Loss: 4.08358 = CE Loss: 4.02873 + Fisher Loss: 0.27426
+10/12 01:32  Batch 225 / 227, Loss: 4.10424 = CE Loss: 4.05014 + Fisher Loss: 0.27046
+10/12 01:33  Epoch 66 / 100, Loss: 4.17882= CE Loss: 4.10893 + Fisher Loss: 0.34942
+10/12 01:33  Valid NDCG@5: 0.56636, Recall@2: 0.55980, Recall@5: 0.59787
+10/12 01:33  Best valid Recall@5 at epoch 59
+10/12 01:33  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 01:33  Batch 0 / 227, Loss: 3.97008 = CE Loss: 3.91163 + Fisher Loss: 0.29224
+10/12 01:35  Batch 45 / 227, Loss: 4.00578 = CE Loss: 3.95028 + Fisher Loss: 0.27747
+10/12 01:36  Batch 90 / 227, Loss: 4.09642 = CE Loss: 4.04041 + Fisher Loss: 0.28003
+10/12 01:38  Batch 135 / 227, Loss: 4.02997 = CE Loss: 3.97452 + Fisher Loss: 0.27726
+10/12 01:39  Batch 180 / 227, Loss: 4.27106 = CE Loss: 4.19750 + Fisher Loss: 0.36783
+10/12 01:41  Batch 225 / 227, Loss: 4.10792 = CE Loss: 4.04915 + Fisher Loss: 0.29386
+10/12 01:42  Epoch 67 / 100, Loss: 4.17785= CE Loss: 4.10861 + Fisher Loss: 0.34621
+10/12 01:42  Valid NDCG@5: 0.56888, Recall@2: 0.56308, Recall@5: 0.59951
+10/12 01:42  Best valid Recall@5 at epoch 59
+10/12 01:42  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 01:42  Batch 0 / 227, Loss: 4.02137 = CE Loss: 3.96546 + Fisher Loss: 0.27954
+10/12 01:44  Batch 45 / 227, Loss: 4.20874 = CE Loss: 4.15476 + Fisher Loss: 0.26988
+10/12 01:45  Batch 90 / 227, Loss: 4.09095 = CE Loss: 4.03681 + Fisher Loss: 0.27070
+10/12 01:47  Batch 135 / 227, Loss: 4.26323 = CE Loss: 4.20945 + Fisher Loss: 0.26889
+10/12 01:48  Batch 180 / 227, Loss: 4.27860 = CE Loss: 4.22297 + Fisher Loss: 0.27812
+10/12 01:50  Batch 225 / 227, Loss: 4.19575 = CE Loss: 4.12021 + Fisher Loss: 0.37770
+10/12 01:51  Epoch 68 / 100, Loss: 4.17459= CE Loss: 4.10556 + Fisher Loss: 0.34514
+10/12 01:51  Valid NDCG@5: 0.56774, Recall@2: 0.56168, Recall@5: 0.59934
+10/12 01:51  Best valid Recall@5 at epoch 59
+10/12 01:51  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 01:51  Batch 0 / 227, Loss: 4.02792 = CE Loss: 3.97228 + Fisher Loss: 0.27823
+10/12 01:53  Batch 45 / 227, Loss: 4.07958 = CE Loss: 4.02370 + Fisher Loss: 0.27938
+10/12 01:54  Batch 90 / 227, Loss: 4.15474 = CE Loss: 4.05893 + Fisher Loss: 0.47908
+10/12 01:56  Batch 135 / 227, Loss: 4.08199 = CE Loss: 4.02794 + Fisher Loss: 0.27027
+10/12 01:57  Batch 180 / 227, Loss: 4.19934 = CE Loss: 4.10284 + Fisher Loss: 0.48247
+10/12 01:59  Batch 225 / 227, Loss: 4.02983 = CE Loss: 3.97392 + Fisher Loss: 0.27951
+10/12 02:00  Epoch 69 / 100, Loss: 4.17802= CE Loss: 4.10551 + Fisher Loss: 0.36256
+10/12 02:00  Valid NDCG@5: 0.56733, Recall@2: 0.56191, Recall@5: 0.59864
+10/12 02:00  Best valid Recall@5 at epoch 59
+10/12 02:00  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 02:00  Batch 0 / 227, Loss: 4.08372 = CE Loss: 4.02810 + Fisher Loss: 0.27809
+10/12 02:02  Batch 45 / 227, Loss: 4.05032 = CE Loss: 3.97546 + Fisher Loss: 0.37427
+10/12 02:03  Batch 90 / 227, Loss: 4.07913 = CE Loss: 3.94806 + Fisher Loss: 0.65533
+10/12 02:05  Batch 135 / 227, Loss: 4.22486 = CE Loss: 4.14991 + Fisher Loss: 0.37478
+10/12 02:07  Batch 180 / 227, Loss: 4.20901 = CE Loss: 4.15312 + Fisher Loss: 0.27941
+10/12 02:08  Batch 225 / 227, Loss: 4.20719 = CE Loss: 4.15052 + Fisher Loss: 0.28335
+10/12 02:09  Epoch 70 / 100, Loss: 4.16848= CE Loss: 4.10099 + Fisher Loss: 0.33744
+10/12 02:09  Valid NDCG@5: 0.56464, Recall@2: 0.55913, Recall@5: 0.59660
+10/12 02:09  Best valid Recall@5 at epoch 59
+10/12 02:09  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 02:09  Batch 0 / 227, Loss: 3.97491 = CE Loss: 3.91976 + Fisher Loss: 0.27576
+10/12 02:11  Batch 45 / 227, Loss: 4.15766 = CE Loss: 4.10289 + Fisher Loss: 0.27384
+10/12 02:13  Batch 90 / 227, Loss: 4.12347 = CE Loss: 4.06754 + Fisher Loss: 0.27964
+10/12 02:14  Batch 135 / 227, Loss: 4.00351 = CE Loss: 3.94723 + Fisher Loss: 0.28144
+10/12 02:16  Batch 180 / 227, Loss: 4.12801 = CE Loss: 4.07452 + Fisher Loss: 0.26746
+10/12 02:17  Batch 225 / 227, Loss: 4.26620 = CE Loss: 4.17260 + Fisher Loss: 0.46798
+10/12 02:19  Epoch 71 / 100, Loss: 4.16983= CE Loss: 4.09916 + Fisher Loss: 0.35337
+10/12 02:19  Valid NDCG@5: 0.56531, Recall@2: 0.55879, Recall@5: 0.59800
+10/12 02:19  Best valid Recall@5 at epoch 59
+10/12 02:19  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 02:19  Batch 0 / 227, Loss: 4.01429 = CE Loss: 3.90297 + Fisher Loss: 0.55656
+10/12 02:20  Batch 45 / 227, Loss: 4.00316 = CE Loss: 3.93140 + Fisher Loss: 0.35878
+10/12 02:22  Batch 90 / 227, Loss: 4.07294 = CE Loss: 4.01847 + Fisher Loss: 0.27239
+10/12 02:23  Batch 135 / 227, Loss: 4.10444 = CE Loss: 4.03134 + Fisher Loss: 0.36552
+10/12 02:25  Batch 180 / 227, Loss: 4.33554 = CE Loss: 4.28010 + Fisher Loss: 0.27721
+10/12 02:26  Batch 225 / 227, Loss: 4.12969 = CE Loss: 4.05488 + Fisher Loss: 0.37405
+10/12 02:28  Epoch 72 / 100, Loss: 4.17048= CE Loss: 4.09771 + Fisher Loss: 0.36385
+10/12 02:28  Valid NDCG@5: 0.56728, Recall@2: 0.56127, Recall@5: 0.59911
+10/12 02:28  Best valid Recall@5 at epoch 59
+10/12 02:28  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 02:28  Batch 0 / 227, Loss: 4.05788 = CE Loss: 3.97060 + Fisher Loss: 0.43638
+10/12 02:29  Batch 45 / 227, Loss: 4.17478 = CE Loss: 4.09942 + Fisher Loss: 0.37679
+10/12 02:31  Batch 90 / 227, Loss: 4.14321 = CE Loss: 4.04699 + Fisher Loss: 0.48110
+10/12 02:32  Batch 135 / 227, Loss: 4.09661 = CE Loss: 4.04204 + Fisher Loss: 0.27287
+10/12 02:34  Batch 180 / 227, Loss: 4.09407 = CE Loss: 4.03974 + Fisher Loss: 0.27165
+10/12 02:36  Batch 225 / 227, Loss: 4.04918 = CE Loss: 3.99564 + Fisher Loss: 0.26770
+10/12 02:37  Epoch 73 / 100, Loss: 4.16496= CE Loss: 4.09521 + Fisher Loss: 0.34875
+10/12 02:37  Valid NDCG@5: 0.56637, Recall@2: 0.56148, Recall@5: 0.59840
+10/12 02:37  Best valid Recall@5 at epoch 59
+10/12 02:37  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 02:37  Batch 0 / 227, Loss: 3.95578 = CE Loss: 3.90238 + Fisher Loss: 0.26698
+10/12 02:38  Batch 45 / 227, Loss: 4.04111 = CE Loss: 3.93562 + Fisher Loss: 0.52745
+10/12 02:40  Batch 90 / 227, Loss: 4.07644 = CE Loss: 4.02266 + Fisher Loss: 0.26889
+10/12 02:42  Batch 135 / 227, Loss: 4.07915 = CE Loss: 4.02634 + Fisher Loss: 0.26405
+10/12 02:43  Batch 180 / 227, Loss: 4.21116 = CE Loss: 4.07213 + Fisher Loss: 0.69512
+10/12 02:45  Batch 225 / 227, Loss: 4.40011 = CE Loss: 4.21656 + Fisher Loss: 0.91776
+10/12 02:46  Epoch 74 / 100, Loss: 4.16848= CE Loss: 4.09657 + Fisher Loss: 0.35957
+10/12 02:46  Valid NDCG@5: 0.56646, Recall@2: 0.56124, Recall@5: 0.59757
+10/12 02:46  Best valid Recall@5 at epoch 59
+10/12 02:46  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 02:46  Batch 0 / 227, Loss: 4.08415 = CE Loss: 4.02978 + Fisher Loss: 0.27186
+10/12 02:48  Batch 45 / 227, Loss: 4.22347 = CE Loss: 4.12310 + Fisher Loss: 0.50186
+10/12 02:49  Batch 90 / 227, Loss: 4.13562 = CE Loss: 3.96975 + Fisher Loss: 0.82935
+10/12 02:51  Batch 135 / 227, Loss: 4.15809 = CE Loss: 4.04374 + Fisher Loss: 0.57177
+10/12 02:52  Batch 180 / 227, Loss: 4.17713 = CE Loss: 4.12365 + Fisher Loss: 0.26742
+10/12 02:54  Batch 225 / 227, Loss: 4.06804 = CE Loss: 4.01478 + Fisher Loss: 0.26627
+10/12 02:55  Epoch 75 / 100, Loss: 4.16497= CE Loss: 4.09407 + Fisher Loss: 0.35446
+10/12 02:55  Valid NDCG@5: 0.56800, Recall@2: 0.56262, Recall@5: 0.59928
+10/12 02:55  Best valid Recall@5 at epoch 59
+10/12 02:55  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 02:55  Batch 0 / 227, Loss: 4.12593 = CE Loss: 4.07234 + Fisher Loss: 0.26796
+10/12 02:57  Batch 45 / 227, Loss: 4.05904 = CE Loss: 3.98316 + Fisher Loss: 0.37936
+10/12 02:58  Batch 90 / 227, Loss: 4.10750 = CE Loss: 4.04630 + Fisher Loss: 0.30598
+10/12 03:00  Batch 135 / 227, Loss: 4.12521 = CE Loss: 4.07170 + Fisher Loss: 0.26759
+10/12 03:02  Batch 180 / 227, Loss: 4.04998 = CE Loss: 3.99672 + Fisher Loss: 0.26629
+10/12 03:03  Batch 225 / 227, Loss: 4.17064 = CE Loss: 4.11781 + Fisher Loss: 0.26413
+10/12 03:04  Epoch 76 / 100, Loss: 4.16431= CE Loss: 4.09193 + Fisher Loss: 0.36193
+10/12 03:04  Valid NDCG@5: 0.56769, Recall@2: 0.56258, Recall@5: 0.59944
+10/12 03:04  Best valid Recall@5 at epoch 59
+10/12 03:04  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 03:04  Batch 0 / 227, Loss: 4.04647 = CE Loss: 3.99419 + Fisher Loss: 0.26144
+10/12 03:06  Batch 45 / 227, Loss: 4.19167 = CE Loss: 4.13565 + Fisher Loss: 0.28012
+10/12 03:08  Batch 90 / 227, Loss: 4.15142 = CE Loss: 4.09917 + Fisher Loss: 0.26126
+10/12 03:09  Batch 135 / 227, Loss: 4.03868 = CE Loss: 3.98779 + Fisher Loss: 0.25445
+10/12 03:11  Batch 180 / 227, Loss: 4.19293 = CE Loss: 4.12203 + Fisher Loss: 0.35446
+10/12 03:12  Batch 225 / 227, Loss: 4.24161 = CE Loss: 4.18978 + Fisher Loss: 0.25916
+10/12 03:14  Epoch 77 / 100, Loss: 4.15634= CE Loss: 4.09157 + Fisher Loss: 0.32386
+10/12 03:14  Valid NDCG@5: 0.56775, Recall@2: 0.56127, Recall@5: 0.59944
+10/12 03:14  Best valid Recall@5 at epoch 59
+10/12 03:14  Test NDCG@5: 0.50592, Recall@2: 0.49884, Recall@5: 0.54050
+
+10/12 03:14  Batch 0 / 227, Loss: 4.16775 = CE Loss: 4.11554 + Fisher Loss: 0.26106
+10/12 03:15  Batch 45 / 227, Loss: 4.15794 = CE Loss: 4.10485 + Fisher Loss: 0.26542
+10/12 03:17  Batch 90 / 227, Loss: 4.26363 = CE Loss: 4.10294 + Fisher Loss: 0.80345
+10/12 03:18  Batch 135 / 227, Loss: 4.11824 = CE Loss: 4.06724 + Fisher Loss: 0.25502
+10/12 03:20  Batch 180 / 227, Loss: 4.09729 = CE Loss: 4.04591 + Fisher Loss: 0.25691
+10/12 03:22  Batch 225 / 227, Loss: 4.18590 = CE Loss: 4.12673 + Fisher Loss: 0.29586
+10/12 03:23  Epoch 78 / 100, Loss: 4.15445= CE Loss: 4.08742 + Fisher Loss: 0.33519
+10/12 03:23  Valid NDCG@5: 0.57006, Recall@2: 0.56412, Recall@5: 0.60253
+10/12 03:24  New test result:
+ {'hit_ratio': array([0.46846318, 0.50205507, 0.54392905, 0.57572855, 0.61018573,
+       0.66037269]),
+ 'mrr': 0.5049058368346956,
+ 'ndcg': array([0.46846318, 0.4896573 , 0.50840675, 0.5187333 , 0.52744452,
+       0.53742222]),
+ 'precision': array([0.46846318, 0.25102753, 0.10878581, 0.05757285, 0.03050929,
+       0.01320745]),
+ 'recall': array([0.46846318, 0.50205507, 0.54392905, 0.57572855, 0.61018573,
+       0.66037269])}
+10/12 03:24  Best valid Recall@5 at epoch 78
+10/12 03:24  Test NDCG@5: 0.50841, Recall@2: 0.50206, Recall@5: 0.54393
+
+10/12 03:24  Batch 0 / 227, Loss: 4.09712 = CE Loss: 3.94731 + Fisher Loss: 0.74907
+10/12 03:26  Batch 45 / 227, Loss: 3.93497 = CE Loss: 3.88284 + Fisher Loss: 0.26065
+10/12 03:27  Batch 90 / 227, Loss: 4.17444 = CE Loss: 4.11785 + Fisher Loss: 0.28297
+10/12 03:29  Batch 135 / 227, Loss: 3.92751 = CE Loss: 3.87691 + Fisher Loss: 0.25302
+10/12 03:30  Batch 180 / 227, Loss: 4.16765 = CE Loss: 4.11579 + Fisher Loss: 0.25930
+10/12 03:32  Batch 225 / 227, Loss: 4.09322 = CE Loss: 4.04143 + Fisher Loss: 0.25894
+10/12 03:33  Epoch 79 / 100, Loss: 4.15240= CE Loss: 4.08800 + Fisher Loss: 0.32204
+10/12 03:33  Valid NDCG@5: 0.57009, Recall@2: 0.56453, Recall@5: 0.60269
+10/12 03:35  New test result:
+ {'hit_ratio': array([0.46778331, 0.50152971, 0.54377453, 0.576223  , 0.60950586,
+       0.66065082]),
+ 'mrr': 0.5046598329236166,
+ 'ndcg': array([0.46778331, 0.48907492, 0.508205  , 0.51871906, 0.52712131,
+       0.53728323]),
+ 'precision': array([0.46778331, 0.25076486, 0.10875491, 0.0576223 , 0.03047529,
+       0.01321302]),
+ 'recall': array([0.46778331, 0.50152971, 0.54377453, 0.576223  , 0.60950586,
+       0.66065082])}
+10/12 03:35  Best valid Recall@5 at epoch 79
+10/12 03:35  Test NDCG@5: 0.50821, Recall@2: 0.50153, Recall@5: 0.54377
+
+10/12 03:35  Batch 0 / 227, Loss: 3.95302 = CE Loss: 3.90218 + Fisher Loss: 0.25423
+10/12 03:36  Batch 45 / 227, Loss: 4.10560 = CE Loss: 4.05299 + Fisher Loss: 0.26306
+10/12 03:38  Batch 90 / 227, Loss: 4.16563 = CE Loss: 4.11421 + Fisher Loss: 0.25706
+10/12 03:39  Batch 135 / 227, Loss: 4.17554 = CE Loss: 4.12433 + Fisher Loss: 0.25606
+10/12 03:41  Batch 180 / 227, Loss: 4.22381 = CE Loss: 4.09184 + Fisher Loss: 0.65981
+10/12 03:42  Batch 225 / 227, Loss: 4.03145 = CE Loss: 3.96635 + Fisher Loss: 0.32549
+10/12 03:44  Epoch 80 / 100, Loss: 4.15540= CE Loss: 4.08422 + Fisher Loss: 0.35589
+10/12 03:44  Valid NDCG@5: 0.56899, Recall@2: 0.56359, Recall@5: 0.60099
+10/12 03:44  Best valid Recall@5 at epoch 79
+10/12 03:44  Test NDCG@5: 0.50821, Recall@2: 0.50153, Recall@5: 0.54377
+
+10/12 03:44  Batch 0 / 227, Loss: 4.00853 = CE Loss: 3.94174 + Fisher Loss: 0.33395
+10/12 03:45  Batch 45 / 227, Loss: 3.92521 = CE Loss: 3.87399 + Fisher Loss: 0.25607
+10/12 03:47  Batch 90 / 227, Loss: 4.10676 = CE Loss: 4.05436 + Fisher Loss: 0.26201
+10/12 03:49  Batch 135 / 227, Loss: 4.25427 = CE Loss: 4.16970 + Fisher Loss: 0.42282
+10/12 03:50  Batch 180 / 227, Loss: 4.04755 = CE Loss: 3.99721 + Fisher Loss: 0.25170
+10/12 03:52  Batch 225 / 227, Loss: 4.17852 = CE Loss: 4.02972 + Fisher Loss: 0.74401
+10/12 03:53  Epoch 81 / 100, Loss: 4.15220= CE Loss: 4.08425 + Fisher Loss: 0.33976
+10/12 03:53  Valid NDCG@5: 0.57062, Recall@2: 0.56506, Recall@5: 0.60259
+10/12 03:53  Best valid Recall@5 at epoch 79
+10/12 03:53  Test NDCG@5: 0.50821, Recall@2: 0.50153, Recall@5: 0.54377
+
+10/12 03:53  Batch 0 / 227, Loss: 4.14114 = CE Loss: 4.07749 + Fisher Loss: 0.31828
+10/12 03:55  Batch 45 / 227, Loss: 4.16859 = CE Loss: 4.11789 + Fisher Loss: 0.25350
+10/12 03:56  Batch 90 / 227, Loss: 4.05258 = CE Loss: 3.96283 + Fisher Loss: 0.44879
+10/12 03:58  Batch 135 / 227, Loss: 4.03265 = CE Loss: 3.98080 + Fisher Loss: 0.25927
+10/12 03:59  Batch 180 / 227, Loss: 3.99642 = CE Loss: 3.94399 + Fisher Loss: 0.26213
+10/12 04:01  Batch 225 / 227, Loss: 4.09729 = CE Loss: 4.04718 + Fisher Loss: 0.25053
+10/12 04:02  Epoch 82 / 100, Loss: 4.15380= CE Loss: 4.08566 + Fisher Loss: 0.34070
+10/12 04:02  Valid NDCG@5: 0.57062, Recall@2: 0.56506, Recall@5: 0.60303
+10/12 04:04  New test result:
+ {'hit_ratio': array([0.4676906 , 0.50115887, 0.54392905, 0.57551222, 0.61027844,
+       0.65919837]),
+ 'mrr': 0.5043581859737137,
+ 'ndcg': array([0.4676906 , 0.48880673, 0.50811863, 0.51830341, 0.52707301,
+       0.53677559]),
+ 'precision': array([0.4676906 , 0.25057944, 0.10878581, 0.05755122, 0.03051392,
+       0.01318397]),
+ 'recall': array([0.4676906 , 0.50115887, 0.54392905, 0.57551222, 0.61027844,
+       0.65919837])}
+10/12 04:04  Best valid Recall@5 at epoch 82
+10/12 04:04  Test NDCG@5: 0.50812, Recall@2: 0.50116, Recall@5: 0.54393
+
+
